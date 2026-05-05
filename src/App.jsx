@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, Navigate, Route, Routes, useLocation, useParams } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import osQuestions from './data/os.json'
 import dbmsQuestions from './data/dbms.json'
 import cnQuestions from './data/cn.json'
@@ -49,7 +50,7 @@ function Home() {
 
   return (
     <>
-    <Analytics />
+   
     <main className="shell">
       <section className="hero-card">
         <p className="eyebrow">Choose a route</p>
@@ -426,10 +427,13 @@ function QuizRoute({ subject }) {
 
 function App() {
   return (
+    <>
+     <Analytics />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/:subject" element={<QuizRouteContainer />} />
     </Routes>
+    </>
   )
 }
 
