@@ -1,0 +1,365 @@
+    [
+        {
+            "question": "Which of the following declares a pointer to an int?",
+            "option": [
+                "int ptr *",
+                "int ptr",
+                "int &ptr",
+                "int *ptr"
+            ],
+            "answer": "int *ptr",
+            "explanation": "A pointer to int is declared using * (e.g. int *ptr;)."
+        },
+        {
+            "question": "What is the output of the following code: int a = 5; int *p = &a; *p = 10; printf('%d', a);",
+            "option": [
+                "5",
+                "10",
+                "Compilation error",
+                "No output"
+            ],
+            "answer": "10",
+            "explanation": "Dereferencing p with *p = 10 changes a to 10, so printing a gives 10."
+        },
+        {
+            "question": "What is the output of the following C code: int arr[] = {1,2,3}; int *p = arr; printf('%d'%d', *p, *(p+2));",
+            "option": [
+                "1 2",
+                "1 3",
+                "2 3",
+                "Compilation error"
+            ],
+            "answer": "1 3",
+            "explanation": "*p is arr[0]=1 and *(p+2) is arr[2]=3, so output is '1 3'."
+        },
+        {
+            "question": "Consider the code: int a = 5; int *p = &a; printf('%d', *p++); What does it print?",
+            "option": [
+                "5",
+                "6",
+                "Compilation error",
+                "Undefined"
+            ],
+            "answer": "5",
+            "explanation": "*p++ returns the value pointed by p (5) and then increments p. Hence it prints 5."
+        },
+        {
+            "question": "Consider the code: int a = 5; int *p = &a; printf('%d', ++*p); What does it print?",
+            "option": [
+                "5",
+                "6",
+                "Compilation error",
+                "Undefined"
+            ],
+            "answer": "6",
+            "explanation": "++p increments the value pointed by p (a becomes 6) and then returns it. Thus it prints 6."
+        },
+        {
+            "question": "Given int p = NULL; if(p) printf('true'); else printf('false'); What will be printed?",
+            "option": [
+                "true",
+                "false",
+                "Segmentation fault",
+                "Compiler error"
+            ],
+            "answer": "false",
+            "explanation": "p is NULL, which evaluates to false in a conditional, so 'false' is printed."
+        },
+        {
+            "question": "What is the output of the following code: int i = 10; void p = &i; printf('%d', (int)p);",
+            "option": [
+                "10",
+                "Depends on compiler",
+                "Segmentation fault",
+                "Undefined behaviour"
+            ],
+            "answer": "10",
+            "explanation": "p is cast to (int) and dereferenced. It prints the int value 10."
+        },
+        {
+            "question": "What is the output of the following code: int i = 10; void p = &i; printf('%f', (float)p);",
+            "option": [
+                "Compilation error",
+                "Undefined behaviour",
+                "10.000000",
+                "0.000000"
+            ],
+            "answer": "0.000000",
+            "explanation": "p is cast to (float) and dereferenced. The int 10 bits interpreted as float give ~0.000000, so this prints 0.000000."
+        },
+        {
+            "question": "In C, if p is of type int, the expression p+1 moves the pointer by how many bytes?",
+            "option": [
+                "1",
+                "sizeof(int)",
+                "sizeof(p)",
+                "Undefined"
+            ],
+            "answer": "sizeof(int)",
+            "explanation": "Adding 1 to an int pointer advances it by the size of the int type in bytes."
+        },
+        {
+            "question": "Given int arr[] = {1,2,3,4,5}; int *p = &arr[4], *q = arr; what is the value of p - q?",
+            "option": [
+                "-1",
+                "4",
+                "3",
+                "Undefined"
+            ],
+            "answer": "4",
+            "explanation": "p points to arr[4] and q to arr[0]. Subtracting gives 4 (the number of elements between them)."
+        },
+        {
+            "question": "If x and y are separate int variables with addresses p and q, what is p - q in C?",
+            "option": [
+                "Number of elements between x and y",
+                "0",
+                "Undefined behaviour",
+                "Difference in bytes of addresses"
+            ],
+            "answer": "Undefined behaviour",
+            "explanation": "Pointer subtraction is only defined for pointers to elements of the same array. For separate objects it is undefined behaviour."
+        },
+        {
+            "question": "Is the following code valid in standard C: void p; p++;",
+            "option": [
+                "Yes",
+                "No (compile error)",
+                "Undefined behaviour",
+                "Only in C++"
+            ],
+            "answer": "No (compile error)",
+            "explanation": "Arithmetic on void is not allowed in standard C (it is a GNU extension)."
+        },
+        {
+            "question": "Given int a; int * const p = &a;, which operation is invalid?",
+            "option": [
+                "*p = 5",
+                "p = NULL",
+                "(*p)++",
+                "++*p"
+            ],
+            "answer": "p = NULL",
+            "explanation": "p is a constant pointer (the address is constant). Assigning p = NULL is invalid."
+        },
+        {
+            "question": "Given const int a; const int *p = &a;, which operation is invalid?",
+            "option": [
+                "*p = 10",
+                "p = &a",
+                "int x = *p",
+                "printf('%d', *p)"
+            ],
+            "answer": "*p = 10",
+            "explanation": "p is a pointer to const int, so *p cannot be assigned to (writing through it is invalid)."
+        },
+        {
+            "question": "What is the output of: int a = 5, b = 10; int *p = &a; int **q = &p; *q = &b; printf('%d', *p);",
+            "option": [
+                "5",
+                "10",
+                "Compilation error",
+                "Undefined behaviour"
+            ],
+            "answer": "10",
+            "explanation": "*q = &b makes p point to b. So *p is b's value, 10."
+        },
+        {
+            "question": "Given struct S; struct S *p = NULL; which of the following is illegal?",
+            "option": [
+                "sizeof(p)",
+                "p == NULL",
+                "p = NULL",
+                "sizeof(*p)"
+            ],
+            "answer": "sizeof(*p)",
+            "explanation": "p is pointer to incomplete type struct S. sizeof(*p) requires knowing struct S size, which is unknown."
+        },
+        {
+            "question": "If struct S { int x; }; struct S *p; which expression gives member x?",
+            "option": [
+                "p.x",
+                "p->x",
+                "*p.x",
+                "*p->x"
+            ],
+            "answer": "p->x",
+            "explanation": "For a pointer to struct S, p->x accesses member x (equivalent to (*p).x)."
+        },
+        {
+            "question": "Given char *s = 'Hello';, what happens if we do s[0] = 'h'?",
+            "option": [
+                "It changes the string",
+                "Undefined behaviour",
+                "Compile error",
+                "Prints 'hello'"
+            ],
+            "answer": "Undefined behaviour",
+            "explanation": "String literals may be in read-only memory; modifying them results in undefined behaviour."
+        },
+        {
+            "question": "Which best describes the difference between char s1[] = 'Hello'; and char *s2 = 'Hello';",
+            "option": [
+                "s1 is an array (modifiable copy), s2 is pointer to literal",
+                "s1 is pointer, s2 is array",
+                "Both are same",
+                "s1 is string literal, s2 is char array"
+            ],
+            "answer": "s1 is an array (modifiable copy), s2 is pointer to literal",
+            "explanation": "s1 allocates an array with a copy of the string (modifiable), s2 is a pointer to a string literal (should not be modified)."
+        },
+        {
+            "question": "Which of the following declares a pointer to a function that takes an int and returns an int?",
+            "option": [
+                "int *f(int)",
+                "int (f)(int)",
+                "int f(int)",
+                "int f(int)"
+            ],
+            "answer": "int (*f)(int)",
+            "explanation": "int (*f)(int) declares f as pointer to a function taking int and returning int."
+        },
+        {
+            "question": "What is wrong with the function: int f() { int x = 5; return &x; } ?",
+            "option": [
+                "Nothing, it returns 5",
+                "Undefined behaviour: returns address of local variable",
+                "Compile error",
+                "Returns 0"
+            ],
+            "answer": "Undefined behaviour: returns address of local variable",
+            "explanation": "x is a local variable. Returning its address leads to a dangling pointer (undefined behaviour)."
+        },
+        {
+            "question": "What happens when free() is called with a NULL pointer?",
+            "option": [
+                "Nothing (safe)",
+                "Crash (segfault)",
+                "Memory leak",
+                "Runtime error"
+            ],
+            "answer": "Nothing (safe)",
+            "explanation": "free(NULL) has no effect by the C standard and is safe to call."
+        },
+        {
+            "question": "What happens if free() is called twice on the same pointer?",
+            "option": [
+                "Safe (no effect)",
+                "Undefined behaviour",
+                "Memory leak",
+                "Pointer becomes NULL"
+            ],
+            "answer": "Undefined behaviour",
+            "explanation": "Calling free() twice on the same pointer leads to undefined behaviour (likely crash)."
+        },
+        {
+            "question": "Which of the following will cause a memory leak?",
+            "option": [
+                "malloc without free",
+                "double free",
+                "free(NULL)",
+                "NULL pointer dereference"
+            ],
+            "answer": "malloc without free",
+            "explanation": "If dynamically allocated memory is not freed, it causes a memory leak."
+        },
+        {
+            "question": "In C, the expression p++ is equivalent to which of the following?",
+            "option": [
+                "(p++)",
+                "(p)++",
+                "(++p)",
+                "Error"
+            ],
+            "answer": "(p++)",
+            "explanation": "The postfix ++ has higher precedence than *, so *p++ is parsed as *(p++)."
+        },
+        {
+            "question": "What is the difference between int (*p)[10] and int *p[10]?",
+            "option": [
+                "p is a pointer to array of 10 ints; p is array of 10 int pointers",
+                "p is pointer to 10 pointers; p is array of 10 ints",
+                "p is array of 10 pointers; p is pointer to an array",
+                "Both declare same thing"
+            ],
+            "answer": "p is a pointer to array of 10 ints; p is array of 10 int pointers",
+            "explanation": "int (*p)[10] is a pointer to an array of 10 ints. int *p[10] is an array of 10 pointers to int."
+        },
+        {
+            "question": "What is the output of the code: int arr[] = {1,2,3}; int *p = arr; printf('%d', ++p);",
+            "option": [
+                "1",
+                "2",
+                "3",
+                "Undefined"
+            ],
+            "answer": "2",
+            "explanation": "++p increments p first (to &arr[1]) then dereferences it, giving arr[1]=2."
+        },
+        {
+            "question": "What is the output of: int arr[] = {1,2,3}; int *p = arr; printf('%d', *p++); printf('%d', *p);",
+            "option": [
+                "1 2",
+                "1 3",
+                "2 3",
+                "Undefined"
+            ],
+            "answer": "1 2",
+            "explanation": "*p++ yields 1 (then p increments), next p is arr[1]=2, so output is '1 2'."
+        },
+        {
+            "question": "What is the result of the following code? int i = 10; int p = &i; float q = (float)p; printf('%f', q);",
+            "option": [
+                "Compilation error",
+                "Undefined behaviour",
+                "10.000000",
+                "0.000000"
+            ],
+            "answer": "Undefined behaviour",
+            "explanation": "Pointer p is cast to float, causing misinterpretation of data. Dereferencing this pointer leads to undefined behaviour (printing a garbage float)."
+        },
+        {
+            "question": "In C, using a function name (without parentheses) in an expression yields what?",
+            "option": [
+                "Function address (pointer)",
+                "Function return value",
+                "Compile time error",
+                "The function itself"
+            ],
+            "answer": "Function address (pointer)",
+            "explanation": "The name of a function in C decays to a pointer to that function, e.g. f is of type pointer to function."
+        },
+        {
+            "question": "What does sizeof(p) return where p is an int pointer?",
+            "option": [
+                "Size of int",
+                "Size of pointer (e.g. 4 or 8 bytes)",
+                "Number of elements pointed to",
+                "Undefined"
+            ],
+            "answer": "Size of pointer (e.g. 4 or 8 bytes)",
+            "explanation": "sizeof(p) gives the size of the pointer itself, not the pointee type."
+        },
+        {
+            "question": "Which memory allocation function initializes allocated memory to zero?",
+            "option": [
+                "malloc()",
+                "calloc()",
+                "realloc()",
+                "free()"
+            ],
+            "answer": "calloc()",
+            "explanation": "calloc() allocates memory and initializes all bits to zero, unlike malloc()."
+        },
+        {
+            "question": "What is a void pointer in C?",
+            "option": [
+                "Pointer to void (generic pointer)",
+                "Pointer to int",
+                "Pointer to nothing",
+                "Pointer that cannot be dereferenced"
+            ],
+            "answer": "Pointer to void (generic pointer)",
+            "explanation": "A void in C is a generic pointer that can hold the address of any data type (but must be cast before dereferencing)."
+        }
+    ]

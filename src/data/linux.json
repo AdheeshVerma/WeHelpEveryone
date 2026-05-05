@@ -1,0 +1,252 @@
+[
+  {
+    "question": "Which information is displayed by the command ls -l?",
+    "option": [
+      "Only filenames in the directory",
+      "File details (permissions, owner, size, modification date)",
+      "Only hidden files",
+      "Only directories"
+    ],
+    "answer": "File details (permissions, owner, size, modification date)",
+    "explanation": "The -l option of ls shows a long listing with permissions, owner, size, and mod date."
+  },
+  {
+    "question": "In Linux, kill -9 PID sends which signal?",
+    "option": ["SIGTERM", "SIGKILL", "SIGINT", "SIGHUP"],
+    "answer": "SIGKILL",
+    "explanation": "Signal 9 is SIGKILL, which forcefully terminates the process."
+  },
+  {
+    "question": "Setting the SUID bit on an executable causes it to be run with ____ privileges.",
+    "option": [
+      "File owner's privileges",
+      "Group owner's privileges",
+      "No additional privileges",
+      "All users' privileges"
+    ],
+    "answer": "File owner's privileges",
+    "explanation": "The SUID bit makes the program run with the file owner's privileges (often root)."
+  },
+  {
+    "question": "What is the effect of the sticky bit on a directory?",
+    "option": [
+      "Only the file owner or root can delete files in the directory",
+      "Anyone can delete any file in the directory",
+      "Only the directory owner can write into it",
+      "Cache directory entries in memory"
+    ],
+    "answer": "Only the file owner or root can delete files in the directory",
+    "explanation": "The sticky bit (t bit) restricts deletion so only the owner of a file (or root) can delete it in that directory."
+  },
+  {
+    "question": "What is the output of echo $((5 + 3)) in Bash?",
+    "option": ["53", "8", "Error", "5+3"],
+    "answer": "8",
+    "explanation": "The $(( )) arithmetic expression evaluates 5+3 to 8."
+  },
+  {
+    "question": "Which special Bash variable holds the number of positional arguments?",
+    "option": ["$#", "$*", "$1", "$@"],
+    "answer": "$#",
+    "explanation": "$# expands to the number of positional parameters passed to the script."
+  },
+  {
+    "question": "In shell redirection, what does 2>&1 do?",
+    "option": [
+      "Redirects stderr to stdout",
+      "Redirects stdout to stderr",
+      "Redirects both to /dev/null",
+      "Swaps stdout and stderr"
+    ],
+    "answer": "Redirects stderr to stdout",
+    "explanation": "The 2>&1 syntax sends file descriptor 2 (stderr) to the same place as file descriptor 1 (stdout)."
+  },
+  {
+    "question": "Which process has PID 1 on a system using systemd?",
+    "option": ["systemd", "syslogd", "sshd", "cron"],
+    "answer": "systemd",
+    "explanation": "On systemd-based systems, the init process with PID 1 is systemd."
+  },
+  {
+    "question": "What does an inode in a Linux filesystem store?",
+    "option": [
+      "File data content",
+      "File metadata (permissions, timestamps, etc.)",
+      "A list of files in a directory",
+      "A device driver"
+    ],
+    "answer": "File metadata (permissions, timestamps, etc.)",
+    "explanation": "Inodes contain metadata and pointers to file data blocks, not the file content itself."
+  },
+  {
+    "question": "Which filesystem introduced journaling to the ext series?",
+    "option": ["ext2", "ext3", "ext4", "FAT32"],
+    "answer": "ext3",
+    "explanation": "ext3 was the first ext filesystem with journaling (ext2 had no journal)."
+  },
+  {
+    "question": "What does mount -t ext4 /dev/sda1 /mnt do?",
+    "option": [
+      "Mounts /dev/sda1 at /mnt with ext4 filesystem type",
+      "Unmounts /dev/sda1 from /mnt",
+      "Formats /dev/sda1 as ext4",
+      "Checks the ext4 filesystem on /dev/sda1"
+    ],
+    "answer": "Mounts /dev/sda1 at /mnt with ext4 filesystem type",
+    "explanation": "The command mounts the partition /dev/sda1 to /mnt assuming it is ext4-formatted."
+  },
+  {
+    "question": "Where are hashed user passwords stored in a typical Linux system?",
+    "option": ["/etc/passwd", "/etc/shadow", "/etc/group", "/etc/hosts"],
+    "answer": "/etc/shadow",
+    "explanation": "Encrypted password hashes are stored in /etc/shadow, while /etc/passwd contains user account info."
+  },
+  {
+    "question": "What is the function of the sudo command?",
+    "option": [
+      "Run a command as another user (usually root) with elevated privileges",
+      "Switch user to another account",
+      "Schedule a command to run in the background",
+      "Show system documentation"
+    ],
+    "answer": "Run a command as another user (usually root) with elevated privileges",
+    "explanation": "sudo allows permitted users to execute commands as root or another user after authentication."
+  },
+  {
+    "question": "Which command installs packages on Debian/Ubuntu systems?",
+    "option": ["apt-get install", "yum install", "pacman -S", "rpm -i"],
+    "answer": "apt-get install",
+    "explanation": "apt-get install is used on Debian-based systems; yum and rpm are for RPM-based systems."
+  },
+  {
+    "question": "Which command shows IP addresses of all network interfaces?",
+    "option": ["ifconfig", "ip addr", "netstat", "ping"],
+    "answer": "ip addr",
+    "explanation": "ip addr (or ip a) displays IP address and status of all interfaces (ifconfig is older)."
+  },
+  {
+    "question": "Which port does SSH use by default?",
+    "option": ["22", "80", "21", "23"],
+    "answer": "22",
+    "explanation": "Port 22 is the standard default port for SSH."
+  },
+  {
+    "question": "Which command lists all listening TCP and UDP ports?",
+    "option": ["netstat -tuln", "netstat -r", "ip link show", "ifconfig -a"],
+    "answer": "netstat -tuln",
+    "explanation": "netstat -tuln shows all listening (-l) TCP (-t) and UDP (-u) ports in numeric form (-n)."
+  },
+  {
+    "question": "Which init system uses 'targets' instead of traditional runlevels?",
+    "option": ["systemd", "SysVinit", "Upstart", "OpenRC"],
+    "answer": "systemd",
+    "explanation": "systemd uses target units to group services in place of SysV runlevels."
+  },
+  {
+    "question": "Which command disables a systemd service from starting at boot?",
+    "option": [
+      "systemctl disable <service>",
+      "systemctl stop <service>",
+      "chkconfig <service> off",
+      "update-rc.d <service> remove"
+    ],
+    "answer": "systemctl disable <service>",
+    "explanation": "systemctl disable prevents the service from starting automatically on boot."
+  },
+  {
+    "question": "Which command lists the currently loaded kernel modules?",
+    "option": ["lsmod", "modprobe -l", "insmod", "rmmod"],
+    "answer": "lsmod",
+    "explanation": "lsmod shows all kernel modules currently loaded into memory."
+  },
+  {
+    "question": "Which command displays the kernel ring buffer messages?",
+    "option": ["dmesg", "journalctl", "syslogd", "tail"],
+    "answer": "dmesg",
+    "explanation": "dmesg prints kernel log messages from the ring buffer (boot and runtime events)."
+  },
+  {
+    "question": "In vi editor, which command saves changes and exits?",
+    "option": [":w", ":q", ":wq", "ZZ"],
+    "answer": ":wq",
+    "explanation": "The :wq command writes (saves) the file and quits vi."
+  },
+  {
+    "question": "What does the crontab time '0 5 * * *' specify?",
+    "option": [
+      "Every day at 5:00 AM",
+      "Every Sunday at 5:00 AM",
+      "Every 5 minutes",
+      "At 5:00 AM on the 1st of each month"
+    ],
+    "answer": "Every day at 5:00 AM",
+    "explanation": "In crontab, '0 5 * * *' means minute 0 of hour 5 each day."
+  },
+  {
+    "question": "What is the output of echo foo bar | cut -d' ' -f2?",
+    "option": ["foo", "bar", "foo bar", ""],
+    "answer": "bar",
+    "explanation": "cut -d' ' -f2 splits on space and selects the second field ('bar')."
+  },
+  {
+    "question": "What does the command grep '^a' file.txt display?",
+    "option": [
+      "Lines starting with 'a'",
+      "Lines ending with 'a'",
+      "Lines containing 'a' anywhere",
+      "Lines exactly equal to 'a'"
+    ],
+    "answer": "Lines starting with 'a'",
+    "explanation": "The regex ^a matches lines that begin with the letter 'a'."
+  },
+  {
+    "question": "What is the function of /dev/null?",
+    "option": [
+      "A null device that discards all written data",
+      "A random number generator",
+      "A character device for current terminal",
+      "A log file for errors"
+    ],
+    "answer": "A null device that discards all written data",
+    "explanation": "/dev/null is a sink that discards any data written to it."
+  },
+  {
+    "question": "Which of these is NOT a container runtime?",
+    "option": ["Docker", "LXC", "QEMU", "Kubernetes"],
+    "answer": "QEMU",
+    "explanation": "QEMU is a hardware virtualization hypervisor, not a container engine."
+  },
+  {
+    "question": "On Debian/Ubuntu, where are system log messages stored by default?",
+    "option": [
+      "/var/log/syslog",
+      "/var/log/messages",
+      "/var/log/dmesg",
+      "/var/log/auth.log"
+    ],
+    "answer": "/var/log/syslog",
+    "explanation": "Debian-based systems use /var/log/syslog for general system logs."
+  },
+  {
+    "question": "In shell redirection, what is the difference between '>' and '>>'?",
+    "option": [
+      "'>' overwrites a file, '>>' appends to a file",
+      "'>' appends to a file, '>>' overwrites a file",
+      "Both overwrite",
+      "Both append"
+    ],
+    "answer": "'>' overwrites a file, '>>' appends to a file",
+    "explanation": "The '>' operator redirects output and replaces the file, while '>>' adds to the end."
+  },
+  {
+    "question": "What does chmod 700 script.sh set the file permissions to?",
+    "option": [
+      "Owner has read, write, execute; no permissions for group or others",
+      "All users have read, write, execute",
+      "Owner and group have all permissions, others none",
+      "No one has any permissions"
+    ],
+    "answer": "Owner has read, write, execute; no permissions for group or others",
+    "explanation": "700 means rwx for owner (7) and no permissions for group/others (0)."
+  }
+]

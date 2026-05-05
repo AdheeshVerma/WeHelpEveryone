@@ -1,0 +1,549 @@
+[
+  {
+    "question": "What is an operating system?",
+    "option": ["interface between the hardware and application programs", "collection of programs that manages hardware resources", "system service provider to the application programs", "all of the mentioned"],
+    "answer": "all of the mentioned",
+    "explanation": "An operating system acts as an interface, manages hardware resources, and provides services to applications."
+  },
+  {
+    "question": "What is the main function of the command interpreter?",
+    "option": ["to provide the interface between the API and application program", "to handle the files in the operating system", "to get and execute the next user-specified command", "none of the mentioned"],
+    "answer": "to get and execute the next user-specified command",
+    "explanation": "The command interpreter reads user commands and executes them."
+  },
+  {
+    "question": "In Operating Systems, which of the following is/are CPU scheduling algorithms?",
+    "option": ["Priority", "Round Robin", "Shortest Job First", "All of the mentioned"],
+    "answer": "All of the mentioned",
+    "explanation": "All listed options are standard CPU scheduling algorithms."
+  },
+  {
+    "question": "To access the services of the operating system, the interface is provided by the ___________",
+    "option": ["Library", "System calls", "Assembly instructions", "API"],
+    "answer": "System calls",
+    "explanation": "System calls provide the interface between user programs and the OS."
+  },
+  {
+    "question": "CPU scheduling is the basis of ___________",
+    "option": ["multiprogramming operating systems", "larger memory sized systems", "multiprocessor systems", "none of the mentioned"],
+    "answer": "multiprogramming operating systems",
+    "explanation": "CPU scheduling enables efficient execution of multiple processes in multiprogramming systems."
+  },
+  {
+    "question": "Which one of the following is not true?",
+    "option": ["kernel remains in the memory during the entire computer session", "kernel is made of various modules which can not be loaded in running operating system", "kernel is the first part of the operating system to load into memory during booting", "kernel is the program that constitutes the central core of the operating system"],
+    "answer": "kernel is made of various modules which can not be loaded in running operating system",
+    "explanation": "Modern kernels support dynamically loadable modules."
+  },
+  {
+    "question": "Which one of the following errors will be handle by the operating system?",
+    "option": ["lack of paper in printer", "connection failure in the network", "power failure", "all of the mentioned"],
+    "answer": "all of the mentioned",
+    "explanation": "Operating systems handle various hardware and system-level errors."
+  },
+  {
+    "question": "Where is the operating system placed in the memory?",
+    "option": ["either low or high memory (depending on the location of interrupt vector)", "in the low memory", "in the high memory", "none of the mentioned"],
+    "answer": "either low or high memory (depending on the location of interrupt vector)",
+    "explanation": "OS placement depends on system architecture and interrupt vector location."
+  },
+  {
+    "question": "If a process fails, most operating system write the error information to a ______",
+    "option": ["new file", "another running process", "log file", "none of the mentioned"],
+    "answer": "log file",
+    "explanation": "Error information is typically written to log files for debugging."
+  },
+  {
+    "question": "Which one of the following is not a real time operating system?",
+    "option": ["RTLinux", "Palm OS", "QNX", "VxWorks"],
+    "answer": "Palm OS",
+    "explanation": "Palm OS is not a real-time operating system."
+  },
+  {
+    "question": "What does OS X has?",
+    "option": ["monolithic kernel with modules", "microkernel", "monolithic kernel", "hybrid kernel"],
+    "answer": "hybrid kernel",
+    "explanation": "macOS uses a hybrid kernel combining microkernel and monolithic features."
+  },
+  {
+    "question": "In operating system, each process has its own __________",
+    "option": ["open files", "pending alarms, signals, and signal handlers", "address space and global variables", "all of the mentioned"],
+    "answer": "all of the mentioned",
+    "explanation": "Each process maintains its own resources including files, signals, and memory space."
+  },
+  {
+    "question": "In a timeshare operating system, when the time slot assigned to a process is completed, the process switches from the current state to?",
+    "option": ["Suspended state", "Terminated state", "Ready state", "Blocked state"],
+    "answer": "Ready state",
+    "explanation": "After time slice completion, the process returns to the ready queue."
+  },
+  {
+    "question": "Cascading termination refers to the termination of all child processes if the parent process terminates ______",
+    "option": ["Normally or abnormally", "Abnormally", "Normally", "None of the mentioned"],
+    "answer": "Normally or abnormally",
+    "explanation": "Child processes terminate regardless of how the parent ends."
+  },
+  {
+    "question": "When a process is in a “Blocked” state waiting for some I/O service. When the service is completed, it goes to the __________",
+    "option": ["Terminated state", "Suspended state", "Running state", "Ready state"],
+    "answer": "Ready state",
+    "explanation": "After I/O completion, the process moves to the ready queue."
+  },
+  {
+    "question": "Transient operating system code is a code that ____________",
+    "option": ["stays in the memory always", "never enters the memory space", "comes and goes as needed", "is not easily accessible"],
+    "answer": "comes and goes as needed",
+    "explanation": "Transient code is loaded only when required."
+  },
+  {
+    "question": "The portion of the process scheduler in an operating system that dispatches processes is concerned with ____________",
+    "option": ["assigning ready processes to waiting queue", "assigning running processes to blocked queue", "assigning ready processes to CPU", "all of the mentioned"],
+    "answer": "assigning ready processes to CPU",
+    "explanation": "Dispatcher assigns CPU to ready processes."
+  },
+  {
+    "question": "The FCFS algorithm is particularly troublesome for ____________",
+    "option": ["operating systems", "multiprocessor systems", "time sharing systems", "multiprogramming systems"],
+    "answer": "time sharing systems",
+    "explanation": "FCFS causes poor response time in time-sharing systems."
+  },
+  {
+    "question": "For an effective operating system, when to check for deadlock?",
+    "option": ["every time a resource request is made at fixed time intervals", "at fixed time intervals", "every time a resource request is made", "none of the mentioned"],
+    "answer": "every time a resource request is made",
+    "explanation": "Checking on each request helps prevent unsafe states."
+  },
+  {
+    "question": "A deadlock avoidance algorithm dynamically examines the __________ to ensure that a circular wait condition can never exist.",
+    "option": ["operating system", "resources", "system storage state", "resource allocation state"],
+    "answer": "resource allocation state",
+    "explanation": "It checks allocation state to avoid unsafe conditions."
+  },
+  {
+    "question": "The systems which allow only one process execution at a time, are called __________",
+    "option": ["uniprogramming systems", "uniprocessing systems", "unitasking systems", "none of the mentioned"],
+    "answer": "uniprogramming systems",
+    "explanation": "Uniprogramming systems execute only one process at a time."
+  },
+  {
+    "question": "In operating system, each process has its own __________",
+    "option": ["address space and global variables", "open files", "pending alarms, signals and signal handlers", "all of the mentioned"],
+    "answer": "all of the mentioned",
+    "explanation": "Each process maintains its own resources including memory, files, and signals."
+  },
+  {
+    "question": "In Unix, Which system call creates the new process?",
+    "option": ["fork", "create", "new", "none of the mentioned"],
+    "answer": "fork",
+    "explanation": "The fork system call creates a new child process."
+  },
+  {
+    "question": "A process can be terminated due to __________",
+    "option": ["normal exit", "fatal error", "killed by another process", "all of the mentioned"],
+    "answer": "all of the mentioned",
+    "explanation": "Processes can terminate for multiple reasons including normal and abnormal events."
+  },
+  {
+    "question": "What is the ready state of a process?",
+    "option": ["when process is scheduled to run after some execution", "when process is unable to run until some task has been completed", "when process is using the CPU", "none of the mentioned"],
+    "answer": "when process is scheduled to run after some execution",
+    "explanation": "A ready process is waiting for CPU allocation."
+  },
+  {
+    "question": "What is interprocess communication?",
+    "option": ["communication within the process", "communication between two process", "communication between two threads of same process", "none of the mentioned"],
+    "answer": "communication between two process",
+    "explanation": "IPC enables communication between processes."
+  },
+  {
+    "question": "A set of processes is deadlock if __________",
+    "option": ["each process is blocked and will remain so forever", "each process is terminated", "all processes are trying to kill each other", "none of the mentioned"],
+    "answer": "each process is blocked and will remain so forever",
+    "explanation": "Deadlock occurs when processes wait indefinitely for resources."
+  },
+  {
+    "question": "A process stack does not contain __________",
+    "option": ["Function parameters", "Local variables", "Return addresses", "PID of child process"],
+    "answer": "PID of child process",
+    "explanation": "Stack contains execution context, not process identifiers of children."
+  },
+  {
+    "question": "Which system call can be used by a parent process to determine the termination of child process?",
+    "option": ["wait", "exit", "fork", "get"],
+    "answer": "wait",
+    "explanation": "wait() allows parent to track child termination."
+  },
+  {
+    "question": "The address of the next instruction to be executed by the current process is provided by the __________",
+    "option": ["CPU registers", "Program counter", "Process stack", "Pipe"],
+    "answer": "Program counter",
+    "explanation": "Program counter holds the next instruction address."
+  },
+  {
+    "question": "A Process Control Block(PCB) does not contain which of the following?",
+    "option": ["Code", "Stack", "Bootstrap program", "Data"],
+    "answer": "Bootstrap program",
+    "explanation": "PCB contains process info but not bootstrap program."
+  },
+  {
+    "question": "The number of processes completed per unit time is known as __________",
+    "option": ["Output", "Throughput", "Efficiency", "Capacity"],
+    "answer": "Throughput",
+    "explanation": "Throughput measures completed processes per unit time."
+  },
+  {
+    "question": "The state of a process is defined by __________",
+    "option": ["the final activity of the process", "the activity just executed by the process", "the activity to next be executed by the process", "the current activity of the process"],
+    "answer": "the current activity of the process",
+    "explanation": "Process state reflects current execution status."
+  },
+  {
+    "question": "Which of the following is not the state of a process?",
+    "option": ["New", "Old", "Waiting", "Running"],
+    "answer": "Old",
+    "explanation": "Old is not a valid process state."
+  },
+  {
+    "question": "What is a Process Control Block?",
+    "option": ["Process type variable", "Data Structure", "A secondary storage section", "A Block in memory"],
+    "answer": "Data Structure",
+    "explanation": "PCB is a data structure storing process information."
+  },
+  {
+    "question": "The entry of all the PCBs of the current processes is in __________",
+    "option": ["Process Register", "Program Counter", "Process Table", "Process Unit"],
+    "answer": "Process Table",
+    "explanation": "Process table stores all PCBs."
+  },
+  {
+    "question": "What is the degree of multiprogramming?",
+    "option": ["the number of processes executed per unit time", "the number of processes in the ready queue", "the number of processes in the I/O queue", "the number of processes in memory"],
+    "answer": "the number of processes in memory",
+    "explanation": "It represents processes loaded in memory."
+  },
+  {
+    "question": "A single thread of control allows the process to perform __________",
+    "option": ["only one task at a time", "multiple tasks at a time", "only two tasks at a time", "all of the mentioned"],
+    "answer": "only one task at a time",
+    "explanation": "Single-threaded processes execute one task at a time."
+  },
+  {
+    "question": "What is the objective of multiprogramming?",
+    "option": ["Have a process running at all time", "Have multiple programs waiting in a queue ready to run", "To increase CPU utilization", "None of the mentioned"],
+    "answer": "To increase CPU utilization",
+    "explanation": "Multiprogramming improves CPU usage."
+  },
+  {
+    "question": "What is Interprocess communication?",
+    "option": [
+      "allows processes to communicate and synchronize their actions when using the same address space",
+      "allows processes to communicate and synchronize their actions",
+      "allows the processes to only synchronize their actions without communication",
+      "none of the mentioned"
+    ],
+    "answer": "allows processes to communicate and synchronize their actions",
+    "explanation": "IPC enables processes to both communicate and synchronize irrespective of address space."
+  },
+  {
+    "question": "Message passing system allows processes to __________",
+    "option": [
+      "communicate with each other without sharing the same address space",
+      "communicate with one another by resorting to shared data",
+      "share data",
+      "name the recipient or sender of the message"
+    ],
+    "answer": "communicate with each other without sharing the same address space",
+    "explanation": "Message passing avoids shared memory and allows communication via messages."
+  },
+  {
+    "question": "Which of the following two operations are provided by the IPC facility?",
+    "option": [
+      "write & delete message",
+      "delete & receive message",
+      "send & delete message",
+      "receive & send message"
+    ],
+    "answer": "receive & send message",
+    "explanation": "IPC primitives are typically send and receive."
+  },
+  {
+    "question": "Messages sent by a process __________",
+    "option": [
+      "have to be of a fixed size",
+      "have to be a variable size",
+      "can be fixed or variable sized",
+      "none of the mentioned"
+    ],
+    "answer": "can be fixed or variable sized",
+    "explanation": "Message size depends on implementation and can be fixed or variable."
+  },
+  {
+    "question": "The link between two processes P and Q to send and receive messages is called __________",
+    "option": [
+      "communication link",
+      "message-passing link",
+      "synchronization link",
+      "all of the mentioned"
+    ],
+    "answer": "communication link",
+    "explanation": "A communication link connects processes for message exchange."
+  },
+  {
+    "question": "Which of the following are TRUE for direct communication?",
+    "option": [
+      "A communication link can be associated with N number of process",
+      "A communication link is associated with exactly two processes",
+      "Exactly N/2 links exist between each pair of processes",
+      "Exactly two link exists between each pair of processes"
+    ],
+    "answer": "A communication link is associated with exactly two processes",
+    "explanation": "Direct communication occurs between exactly two processes."
+  },
+  {
+    "question": "In indirect communication between processes P and Q __________",
+    "option": [
+      "there is another process R to handle messages",
+      "there is another machine between processes",
+      "there is a mailbox to help communication",
+      "none of the mentioned"
+    ],
+    "answer": "there is a mailbox to help communication",
+    "explanation": "Indirect communication uses mailboxes or ports."
+  },
+  {
+    "question": "In the non blocking send __________",
+    "option": [
+      "the sending process keeps sending until the message is received",
+      "the sending process sends the message and resumes operation",
+      "the sending process keeps sending until it receives a message",
+      "none of the mentioned"
+    ],
+    "answer": "the sending process sends the message and resumes operation",
+    "explanation": "Non-blocking send does not wait for receiver acknowledgment."
+  },
+  {
+    "question": "In the Zero capacity queue __________",
+    "option": [
+      "the queue can store at least one message",
+      "the sender blocks until the receiver receives the message",
+      "the sender keeps sending and messages don’t wait",
+      "none of the mentioned"
+    ],
+    "answer": "the sender blocks until the receiver receives the message",
+    "explanation": "Zero capacity means no buffering, sender waits."
+  },
+  {
+    "question": "The Zero Capacity queue __________",
+    "option": [
+      "is referred to as a message system with buffering",
+      "is referred to as a message system with no buffering",
+      "is referred to as a link",
+      "none of the mentioned"
+    ],
+    "answer": "is referred to as a message system with no buffering",
+    "explanation": "Zero capacity implies no buffering."
+  },
+  {
+    "question": "Bounded capacity and Unbounded capacity queues are referred to as __________",
+    "option": [
+      "Programmed buffering",
+      "Automatic buffering",
+      "User defined buffering",
+      "No buffering"
+    ],
+    "answer": "Automatic buffering",
+    "explanation": "These queues imply automatic buffering mechanisms."
+  },
+  {
+    "question": "The wait-for graph is a deadlock detection algorithm that is applicable when ____________",
+    "option": ["all resources have a single instance", "all resources have multiple instances", "all resources have a single 7 multiple instances", "all of the mentioned"],
+    "answer": "all resources have a single instance",
+    "explanation": "Wait-for graph works when each resource has only one instance."
+  },
+  {
+    "question": "An edge from process Pi to Pj in a wait for graph indicates that ____________",
+    "option": ["Pi is waiting for Pj to release a resource that Pi needs", "Pj is waiting for Pi to release a resource that Pj needs", "Pi is waiting for Pj to leave the system", "Pj is waiting for Pi to leave the system"],
+    "answer": "Pi is waiting for Pj to release a resource that Pi needs",
+    "explanation": "Edge Pi → Pj means Pi is waiting for a resource held by Pj."
+  },
+  {
+    "question": "If the wait for graph contains a cycle ____________",
+    "option": ["then a deadlock does not exist", "then a deadlock exists", "then the system is in a safe state", "either deadlock exists or system is in a safe state"],
+    "answer": "then a deadlock exists",
+    "explanation": "Cycle in wait-for graph indicates deadlock."
+  },
+  {
+    "question": "If deadlocks occur frequently, the detection algorithm must be invoked ________",
+    "option": ["rarely", "frequently", "rarely & frequently", "none of the mentioned"],
+    "answer": "frequently",
+    "explanation": "Frequent deadlocks require frequent detection."
+  },
+  {
+    "question": "What is the disadvantage of invoking the detection algorithm for every request?",
+    "option": ["overhead of the detection algorithm due to consumption of memory", "excessive time consumed in the request to be allocated memory", "considerable overhead in computation time", "all of the mentioned"],
+    "answer": "all of the mentioned",
+    "explanation": "Frequent detection adds time and computation overhead."
+  },
+  {
+    "question": "A deadlock eventually cripples system throughput and will cause the CPU utilization to ______",
+    "option": ["increase", "drop", "stay still", "none of the mentioned"],
+    "answer": "drop",
+    "explanation": "Deadlock halts processes, reducing CPU utilization."
+  },
+  {
+    "question": "Every time a request for allocation cannot be granted immediately, the detection algorithm is invoked. This will help identify ____________",
+    "option": ["the set of processes that have been deadlocked", "the set of processes in the deadlock queue", "the specific process that caused the deadlock", "all of the mentioned"],
+    "answer": "the set of processes that have been deadlocked",
+    "explanation": "Detection identifies deadlocked processes."
+  },
+  {
+    "question": "A computer system has 6 tape drives... maximum value of n for deadlock free?",
+    "option": ["2", "3", "4", "1"],
+    "answer": "2",
+    "explanation": "Using deadlock avoidance formula, max safe processes = 2."
+  },
+  {
+    "question": "A system has 3 processes sharing 4 resources... deadlock ____________",
+    "option": ["can never occur", "may occur", "has to occur", "none of the mentioned"],
+    "answer": "can never occur",
+    "explanation": "System satisfies safe condition."
+  },
+  {
+    "question": "‘m’ processes share ‘n’ resources... deadlock ____________",
+    "option": ["can never occur", "may occur", "has to occur", "none of the mentioned"],
+    "answer": "can never occur",
+    "explanation": "Given condition ensures safe state always."
+  },
+  {
+    "question": "A deadlock can be broken by ____________",
+    "option": ["abort one or more processes to break the circular wait", "abort all the process in the system", "preempt all resources from all processes", "none of the mentioned"],
+    "answer": "abort one or more processes to break the circular wait",
+    "explanation": "Breaking circular wait resolves deadlock."
+  },
+  {
+    "question": "The two ways of aborting processes are ____________",
+    "option": ["Abort all deadlocked processes", "Abort all processes", "Abort one process at a time until the deadlock cycle is eliminated", "All of the mentioned"],
+    "answer": "All of the mentioned",
+    "explanation": "Both strategies are used."
+  },
+  {
+    "question": "Processes to be aborted should be those whose termination ____________",
+    "option": ["is more time consuming", "incurs minimum cost", "safety is not hampered", "all of the mentioned"],
+    "answer": "incurs minimum cost",
+    "explanation": "Minimizing cost is preferred."
+  },
+  {
+    "question": "If we preempt a resource from a process, it must be ____________",
+    "option": ["aborted", "rolled back", "terminated", "queued"],
+    "answer": "rolled back",
+    "explanation": "Rollback restores safe state."
+  },
+  {
+    "question": "If resources are always preempted from same process __________ can occur",
+    "option": ["deadlock", "system crash", "aging", "starvation"],
+    "answer": "starvation",
+    "explanation": "Process may never get resources."
+  },
+  {
+    "question": "What is Address Binding?",
+    "option": ["going to an address in memory", "locating an address with the help of another address", "binding two addresses together", "a mapping from one address space to another"],
+    "answer": "a mapping from one address space to another",
+    "explanation": "Binding maps logical to physical addresses."
+  },
+  {
+    "question": "Binding of instructions can be done at ____________",
+    "option": ["Compile time", "Load time", "Execution time", "All of the mentioned"],
+    "answer": "All of the mentioned",
+    "explanation": "All stages support binding."
+  },
+  {
+    "question": "What is Dynamic loading?",
+    "option": ["loading multiple routines dynamically", "loading a routine only when it is called", "loading multiple routines randomly", "none of the mentioned"],
+    "answer": "loading a routine only when it is called",
+    "explanation": "Dynamic loading loads routines on demand."
+  },
+  {
+    "question": "The address generated by CPU is ____________",
+    "option": ["Physical address", "Logical address", "Neither", "None"],
+    "answer": "Logical address",
+    "explanation": "CPU generates logical address."
+  },
+  {
+    "question": "The address loaded into memory is ____________",
+    "option": ["Physical address", "Logical address", "Neither", "None"],
+    "answer": "Physical address",
+    "explanation": "Memory uses physical address."
+  },
+  {
+    "question": "Run time mapping is done by ____________",
+    "option": ["Virtual mapper", "Memory management unit", "Memory mapping unit", "None"],
+    "answer": "Memory management unit",
+    "explanation": "MMU handles mapping."
+  },
+  {
+    "question": "The base register is also called ____________",
+    "option": ["basic register", "regular register", "relocation register", "delocation register"],
+    "answer": "relocation register",
+    "explanation": "It relocates addresses."
+  },
+  {
+    "question": "CPU fetches instruction based on ____________",
+    "option": ["program counter", "status register", "instruction register", "PSW"],
+    "answer": "program counter",
+    "explanation": "PC holds next instruction address."
+  },
+  {
+    "question": "A memory buffer is called ____________",
+    "option": ["stack pointer", "cache", "accumulator", "disk buffer"],
+    "answer": "cache",
+    "explanation": "Cache bridges speed gap."
+  },
+  {
+    "question": "Program always deals with ____________",
+    "option": ["logical address", "absolute address", "physical address", "relative address"],
+    "answer": "logical address",
+    "explanation": "Programs use logical addresses."
+  },
+  {
+    "question": "Compaction is ____________",
+    "option": ["overcoming internal fragmentation", "paging technique", "overcoming external fragmentation", "fatal error fix"],
+    "answer": "overcoming external fragmentation",
+    "explanation": "Compaction reduces external fragmentation."
+  },
+  {
+    "question": "Internal fragmentation occurs when ____________",
+    "option": ["memory is used", "memory is not used", "always used", "none"],
+    "answer": "memory is not used",
+    "explanation": "Unused space inside partition."
+  },
+  {
+    "question": "External fragmentation exists when ____________",
+    "option": ["enough memory but not contiguous", "memory insufficient", "request fails always", "none"],
+    "answer": "enough memory but not contiguous",
+    "explanation": "Free memory exists but scattered."
+  },
+  {
+    "question": "Physical memory is divided into ____________",
+    "option": ["frames", "pages", "backing store", "none"],
+    "answer": "frames",
+    "explanation": "Physical memory units are frames."
+  },
+  {
+    "question": "Logical memory is divided into ____________",
+    "option": ["frames", "pages", "backing store", "none"],
+    "answer": "pages",
+    "explanation": "Logical memory uses pages."
+  },
+  {
+    "question": "Paging eliminates __________ fragmentation",
+    "option": ["internal", "external", "both", "none"],
+    "answer": "external",
+    "explanation": "Paging removes external fragmentation."
+  },
+  {
+    "question": "Operating system maintains page table for ____________",
+    "option": ["each process", "each thread", "each instruction", "each address"],
+    "answer": "each process",
+    "explanation": "Each process has its own page table."
+  }
+]

@@ -1,0 +1,1801 @@
+[
+{
+"question": "What is a computer network?",
+"option": [
+"A device used to display information on a computer screen",
+"A collection of interconnected computers and devices that can communicate and share resources",
+"A type of software used to create documents and presentations",
+"The physical casing that protects a computer’s internal components"
+],
+"answer": "A collection of interconnected computers and devices that can communicate and share resources",
+"explanation": "A network connects devices to share data and resources."
+},
+{
+"question": "What is internet?",
+"option": [
+"A network of interconnected local area networks",
+"A collection of unrelated computers",
+"Interconnection of wide area networks",
+"A single network"
+],
+"answer": "Interconnection of wide area networks",
+"explanation": "The internet is a global system connecting multiple networks."
+},
+{
+"question": "Which of the following is an example of Bluetooth?",
+"option": [
+"wide area network",
+"virtual private network",
+"local area network",
+"personal area network"
+],
+"answer": "personal area network",
+"explanation": "Bluetooth operates over short distances, forming a PAN."
+},
+{
+"question": "Which of the following computer networks is built on the top of another network?",
+"option": [
+"overlay network",
+"prime network",
+"prior network",
+"chief network"
+],
+"answer": "overlay network",
+"explanation": "Overlay networks run on top of existing networks."
+},
+{
+"question": "What is the full form of OSI?",
+"option": [
+"optical service implementation",
+"open service Internet",
+"open system interconnection",
+"operating system interface"
+],
+"answer": "open system interconnection",
+"explanation": "OSI is a reference model for networking."
+},
+{
+"question": "When a collection of various computers appears as a single coherent system to its clients, what is this called?",
+"option": [
+"mail system",
+"networking system",
+"computer network",
+"distributed system"
+],
+"answer": "distributed system",
+"explanation": "Distributed systems act as one system to users."
+},
+{
+"question": "How many layers are there in the ISO OSI reference model?",
+"option": ["7", "5", "4", "6"],
+"answer": "7",
+"explanation": "OSI model has 7 layers."
+},
+{
+"question": "What are nodes in a computer network?",
+"option": [
+"the computer that routes the data",
+"the computer that terminates the data",
+"the computer that originates the data",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "Nodes can send, receive, or forward data."
+},
+{
+"question": "Which one of the following is not a function of network layer?",
+"option": [
+"congestion control",
+"error control",
+"routing",
+"inter-networking"
+],
+"answer": "error control",
+"explanation": "Error control is mainly handled by data link/transport layer."
+},
+{
+"question": "How is a single channel shared by multiple signals in a computer network?",
+"option": [
+"multiplexing",
+"phase modulation",
+"analog modulation",
+"digital modulation"
+],
+"answer": "multiplexing",
+"explanation": "Multiplexing combines multiple signals into one channel."
+},
+{
+"question": "Which of the following devices forwards packets between networks by processing the routing information included in the packet?",
+"option": ["firewall", "bridge", "hub", "router"],
+"answer": "router",
+"explanation": "Routers forward packets using routing tables."
+},
+{
+"question": "What is the term for an endpoint of an inter-process communication flow across a computer network?",
+"option": ["port", "machine", "socket", "pipe"],
+"answer": "socket",
+"explanation": "Socket is an endpoint for communication."
+},
+{
+"question": "How do two devices become part of a network?",
+"option": [
+"PIDs of the processes running of different devices are same",
+"a process in one device is able to exchange information with a process in another device",
+"a process is active and another is inactive",
+"a process is running on both devices"
+],
+"answer": "a process in one device is able to exchange information with a process in another device",
+"explanation": "Communication defines network connectivity."
+},
+{
+"question": "Which layer does the data link layer take packets from and encapsulate them into frames for transmission?",
+"option": [
+"transport layer",
+"application layer",
+"network layer",
+"physical layer"
+],
+"answer": "network layer",
+"explanation": "Data link layer receives packets from network layer."
+},
+{
+"question": "Which of this is not a network edge device?",
+"option": ["Switch", "PC", "Smartphones", "Servers"],
+"answer": "Switch",
+"explanation": "Switch is a network core device, not edge."
+},
+{
+"question": "Which type of network shares the communication channel among all the machines?",
+"option": [
+"anycast network",
+"multicast network",
+"unicast network",
+"broadcast network"
+],
+"answer": "broadcast network",
+"explanation": "Broadcast networks share a common channel."
+},
+{
+"question": "Which topology requires a multipoint connection?",
+"option": ["Ring", "Bus", "Star", "Mesh"],
+"answer": "Bus",
+"explanation": "Bus topology uses a shared communication line."
+},
+{
+"question": "Which of the following maintains the Domain Name System?",
+"option": [
+"a single server",
+"a single computer",
+"distributed database system",
+"none of the mentioned"
+],
+"answer": "distributed database system",
+"explanation": "DNS is a distributed hierarchical system."
+},
+{
+"question": "When discussing IDS/IPS, what is a signature?",
+"option": [
+"It refers to “normal,” baseline network behavior",
+"It is used to authorize the users on a network",
+"An electronic signature used to authenticate the identity of a user on the network",
+"Attack-definition file"
+],
+"answer": "Attack-definition file",
+"explanation": "Signatures define known attack patterns."
+},
+{
+"question": "Which of the following are Gigabit Ethernets?",
+"option": [
+"1000 BASE-LX",
+"1000 BASE-CX",
+"1000 BASE-SX",
+"All of the mentioned"
+],
+"answer": "All of the mentioned",
+"explanation": "All listed are Gigabit Ethernet standards."
+},
+{
+"question": "Which of the following networks extends a private network across public networks?",
+"option": [
+"virtual private network",
+"local area network",
+"storage area network",
+"enterprise private network"
+],
+"answer": "virtual private network",
+"explanation": "VPN securely extends private networks."
+},
+{
+"question": "Which layer is responsible for process to process delivery in a general network model?",
+"option": [
+"session layer",
+"data link layer",
+"transport layer",
+"network layer"
+],
+"answer": "transport layer",
+"explanation": "Transport layer handles end-to-end communication."
+},
+{
+"question": "What does each packet contain in a virtual circuit network?",
+"option": [
+"only source address",
+"only destination address",
+"full source and destination address",
+"a short VC number"
+],
+"answer": "a short VC number",
+"explanation": "VC networks use identifiers instead of full addresses."
+},
+{
+"question": "What is the term for the data communication system within a building or campus?",
+"option": ["MAN", "LAN", "PAN", "WAN"],
+"answer": "LAN",
+"explanation": "LAN covers a limited area like a campus."
+},
+{
+"question": "What was the name of the first network?",
+"option": ["ASAPNET", "ARPANET", "CNNET", "NSFNET"],
+"answer": "ARPANET",
+"explanation": "ARPANET was the first operational network."
+},
+{
+"question": "Which of the following is the network layer protocol for the internet?",
+"option": [
+"hypertext transfer protocol",
+"file transfer protocol",
+"ethernet",
+"internet protocol"
+],
+"answer": "internet protocol",
+"explanation": "IP works at the network layer."
+},
+{
+"question": "Which network topology requires a central controller or hub?",
+"option": ["Ring", "Bus", "Star", "Mesh"],
+"answer": "Star",
+"explanation": "Star topology uses a central hub."
+},
+{
+"question": "If a link transmits 4000 frames per second, and each slot has 8 bits, what is the transmission rate of the circuit using Time Division Multiplexing (TDM)?",
+"option": ["500kbps", "32kbps", "32bps", "500bps"],
+"answer": "32kbps",
+"explanation": "4000 × 8 = 32000 bps = 32 kbps."
+},
+{
+"question": "Which of the following allows LAN users to share computer programs and data?",
+"option": [
+"File server",
+"Network",
+"Communication server",
+"Print server"
+],
+"answer": "File server",
+"explanation": "File servers manage shared resources."
+},
+{
+"question": "What type of transmission is involved in communication between a computer and a keyboard?",
+"option": [
+"Half-duplex",
+"Full-duplex",
+"Simplex",
+"Automatic"
+],
+"answer": "Simplex",
+"explanation": "Keyboard sends data in one direction only."
+},
+{
+"question": "Which layer provides the services to user?",
+"option": [
+"physical layer",
+"presentation layer",
+"session layer",
+"application layer"
+],
+"answer": "application layer",
+"explanation": "Application layer interacts with users."
+},
+{
+"question": "Which connection is necessary for a computer to join the internet?",
+"option": [
+"internet society",
+"internet service provider",
+"different computer",
+"internet architecture board"
+],
+"answer": "internet service provider",
+"explanation": "ISP provides internet connectivity."
+},
+{
+"question": "Which of the following allows you to connect and login to a remote computer?",
+"option": ["SMTP", "HTTP", "FTP", "Telnet"],
+"answer": "Telnet",
+"explanation": "Telnet allows remote login access."
+},
+{
+"question": "Which of the following is used in an attempt to render a computer resource unavailable to its intended users?",
+"option": [
+"botnet process",
+"worms attack",
+"virus attack",
+"denial-of-service attack"
+],
+"answer": "denial-of-service attack",
+"explanation": "DoS attacks overwhelm resources to make them unavailable."
+},
+
+{
+"question": "The IETF standards documents are called ________",
+"option": ["RFC", "RCF", "ID", "DFC"],
+"answer": "RFC",
+"explanation": "IETF publishes standards as Request for Comments (RFC)."
+},
+{
+"question": "In the layer hierarchy as the data packet moves from the upper to the lower layers, headers are ___________",
+"option": ["Added", "Removed", "Rearranged", "Modified"],
+"answer": "Added",
+"explanation": "Each layer adds its own header during encapsulation."
+},
+{
+"question": "The structure or format of data is called ___________",
+"option": ["Syntax", "Semantics", "Struct", "Formatting"],
+"answer": "Syntax",
+"explanation": "Syntax refers to the format or structure of data."
+},
+{
+"question": "Communication between a computer and a keyboard involves ______________ transmission.",
+"option": ["Automatic", "Half-duplex", "Full-duplex", "Simplex"],
+"answer": "Simplex",
+"explanation": "Keyboard sends data in one direction only."
+},
+{
+"question": "The first Network was called ________",
+"option": ["CNNET", "NSFNET", "ASAPNET", "ARPANET"],
+"answer": "ARPANET",
+"explanation": "ARPANET was the first operational network."
+},
+{
+"question": "A _______ is the physical path over which a message travels.",
+"option": ["Path", "Medium", "Protocol", "Route"],
+"answer": "Medium",
+"explanation": "Transmission medium carries signals between devices."
+},
+{
+"question": "Which organization has authority over interstate and international commerce in the communications field?",
+"option": ["ITU-T", "IEEE", "FCC", "ISOC"],
+"answer": "FCC",
+"explanation": "FCC regulates communication in the US."
+},
+{
+"question": "Which of this is not a network edge device?",
+"option": ["PC", "Smartphones", "Servers", "Switch"],
+"answer": "Switch",
+"explanation": "Switch is a core networking device."
+},
+{
+"question": "A _________ set of rules that governs data communication.",
+"option": ["Protocols", "Standards", "RFCs", "Servers"],
+"answer": "Protocols",
+"explanation": "Protocols define communication rules."
+},
+{
+"question": "Three or more devices share a link in ________ connection.",
+"option": ["Unipoint", "Multipoint", "Point to point", "Simplex"],
+"answer": "Multipoint",
+"explanation": "Multipoint allows multiple devices on one link."
+},
+{
+"question": "When collection of various computers seems a single coherent system to its client, then it is called _________",
+"option": ["computer network", "distributed system", "networking system", "mail system"],
+"answer": "distributed system",
+"explanation": "Distributed systems appear as one system."
+},
+{
+"question": "Two devices are in network if __________",
+"option": [
+"a process in one device is able to exchange information with a process in another device",
+"a process is running on both devices",
+"PIDs of the processes running of different devices are same",
+"a process is active and another is inactive"
+],
+"answer": "a process in one device is able to exchange information with a process in another device",
+"explanation": "Communication defines networking."
+},
+{
+"question": "Which of the following computer networks is built on the top of another network?",
+"option": ["prior network", "chief network", "prime network", "overlay network"],
+"answer": "overlay network",
+"explanation": "Overlay runs over existing networks."
+},
+{
+"question": "In computer network nodes are _________",
+"option": [
+"the computer that originates the data",
+"the computer that routes the data",
+"the computer that terminates the data",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "Nodes can perform all roles."
+},
+{
+"question": "Communication channel is shared by all the machines on the network in ________",
+"option": ["broadcast network", "unicast network", "multicast network", "anycast network"],
+"answer": "broadcast network",
+"explanation": "Broadcast uses shared channel."
+},
+{
+"question": "Bluetooth is an example of __________",
+"option": [
+"personal area network",
+"local area network",
+"virtual private network",
+"wide area network"
+],
+"answer": "personal area network",
+"explanation": "Bluetooth forms PAN."
+},
+{
+"question": "A __________ is a device that forwards packets between networks by processing the routing information included in the packet.",
+"option": ["bridge", "firewall", "router", "hub"],
+"answer": "router",
+"explanation": "Routers forward packets between networks."
+},
+{
+"question": "A list of protocols used by a system, one protocol per layer, is called ________",
+"option": ["protocol architecture", "protocol stack", "protocol suite", "protocol system"],
+"answer": "protocol stack",
+"explanation": "Protocol stack defines layered protocols."
+},
+{
+"question": "Network congestion occurs _________",
+"option": [
+"in case of traffic overloading",
+"when a system terminates",
+"when connection between two nodes terminates",
+"in case of transfer failure"
+],
+"answer": "in case of traffic overloading",
+"explanation": "Congestion happens due to excessive traffic."
+},
+{
+"question": "Which of the following networks extends a private network across public networks?",
+"option": [
+"local area network",
+"virtual private network",
+"enterprise private network",
+"storage area network"
+],
+"answer": "virtual private network",
+"explanation": "VPN securely extends networks."
+},
+{
+"question": "Which of this is not a constituent of residential telephone line?",
+"option": [
+"A high-speed downstream channel",
+"A medium-speed downstream channel",
+"A low-speed downstream channel",
+"An ultra-high speed downstream channel"
+],
+"answer": "An ultra-high speed downstream channel",
+"explanation": "Typical lines don’t include ultra-high speed channels."
+},
+{
+"question": "DSL telcos provide which of the following services?",
+"option": [
+"Wired phone access",
+"ISP",
+"Wired phone access and ISP",
+"Network routing and ISP"
+],
+"answer": "Wired phone access and ISP",
+"explanation": "DSL provides phone and internet."
+},
+{
+"question": "The function of DSLAM is to __________",
+"option": [
+"Convert analog signals into digital signals",
+"Convert digital signals into analog signals",
+"Amplify digital signals",
+"De-amplify digital signals"
+],
+"answer": "Convert analog signals into digital signals",
+"explanation": "DSLAM aggregates and converts signals."
+},
+{
+"question": "Which of the following terms is not associated with DSL?",
+"option": ["DSLAM", "CO", "Splitter", "CMTS"],
+"answer": "CMTS",
+"explanation": "CMTS is used in cable networks."
+},
+{
+"question": "HFC contains _______",
+"option": [
+"Fibre cable",
+"Coaxial cable",
+"A combination of Fibre cable and Coaxial cable",
+"Twisted Pair Cable"
+],
+"answer": "A combination of Fibre cable and Coaxial cable",
+"explanation": "HFC uses hybrid cables."
+},
+{
+"question": "Which of the following statements is not applicable for cable internet access?",
+"option": [
+"It is a shared broadcast medium",
+"It includes HFCs",
+"Cable modem connects home PC to Ethernet port",
+"Analog signal is converted to digital signal in DSLAM"
+],
+"answer": "Analog signal is converted to digital signal in DSLAM",
+"explanation": "DSLAM is used in DSL, not cable."
+},
+{
+"question": "Among the optical-distribution architectures that are essentially switched ethernet is __________",
+"option": ["AON", "PON", "NON", "MON"],
+"answer": "AON",
+"explanation": "AON uses active switching."
+},
+{
+"question": "StarBand provides __________",
+"option": ["FTTH internet access", "Cable access", "Telephone access", "Satellite access"],
+"answer": "Satellite access",
+"explanation": "StarBand is satellite-based."
+},
+{
+"question": "Home Internet Access is provided by __________",
+"option": ["DSL", "FTTP", "Cable", "All of the mentioned"],
+"answer": "All of the mentioned",
+"explanation": "All are used for home internet."
+},
+{
+"question": "ONT is connected to splitter using _________",
+"option": [
+"High speed fibre cable",
+"HFC",
+"Optical cable",
+"Twisted pair cable"
+],
+"answer": "Optical cable",
+"explanation": "ONT uses fiber optics."
+},
+{
+"question": "Which of the following factors affect transmission rate in DSL?",
+"option": [
+"The gauge of the twisted-pair line",
+"Degree of electrical interfernece",
+"Shadow fading",
+"The gauge of the twisted-pair line and degree of electrical interference"
+],
+"answer": "The gauge of the twisted-pair line and degree of electrical interference",
+"explanation": "Both factors affect DSL speed."
+},
+{
+"question": "How many layers are present in the Internet protocol stack (TCP/IP model)?",
+"option": ["5", "7", "6", "10"],
+"answer": "5",
+"explanation": "TCP/IP commonly has 5 layers."
+},
+{
+"question": "The number of layers in ISO OSI reference model is __________",
+"option": ["5", "7", "6", "10"],
+"answer": "7",
+"explanation": "OSI has 7 layers."
+},
+{
+"question": "Which of the following layers is an addition to OSI model when compared with TCP IP model?",
+"option": [
+"Application layer",
+"Presentation layer",
+"Session layer",
+"Session and Presentation layer"
+],
+"answer": "Session and Presentation layer",
+"explanation": "OSI includes both layers separately."
+},
+{
+"question": "Application layer is implemented in ____________",
+"option": ["End system", "NIC", "Ethernet", "Packet transport"],
+"answer": "End system",
+"explanation": "Application layer runs on hosts."
+},
+{
+"question": "Transport layer is implemented in ______________",
+"option": ["End system", "NIC", "Ethernet", "Signal transmission"],
+"answer": "End system",
+"explanation": "Transport layer runs on hosts."
+},
+{
+"question": "The functionalities of the presentation layer include ____________",
+"option": [
+"Data compression",
+"Data encryption",
+"Data description",
+"All of the mentioned"
+],
+"answer": "All of the mentioned",
+"explanation": "Presentation handles formatting, encryption, compression."
+},
+{
+"question": "Delimiting and synchronization of data exchange is provided by __________",
+"option": [
+"Application layer",
+"Session layer",
+"Transport layer",
+"Link layer"
+],
+"answer": "Session layer",
+"explanation": "Session manages communication sessions."
+},
+{
+"question": "In OSI model, when data is sent from device A to device B, the 5th layer to receive data at B is _________",
+"option": [
+"Application layer",
+"Transport layer",
+"Link layer",
+"Session layer"
+],
+"answer": "Session layer",
+"explanation": "Order is Physical→DataLink→Network→Transport→Session."
+},
+{
+"question": "In TCP IP Model, when data is sent from device A to device B, the 5th layer to receive data at B is ____________",
+"option": [
+"Application layer",
+"Transport layer",
+"Link layer",
+"Session layer"
+],
+"answer": "Application layer",
+"explanation": "TCP/IP top layer is application."
+},
+{
+"question": "In the OSI model, as a data packet moves from the lower to the upper layers, headers are _______",
+"option": ["Added", "Removed", "Rearranged", "Randomized"],
+"answer": "Removed",
+"explanation": "Decapsulation removes headers."
+},
+{
+"question": "Which of the following statements can be associated with OSI model?",
+"option": [
+"A structured way to discuss and easier update system components",
+"One layer may duplicate lower layer functionality",
+"Functionality at one layer no way requires information from another layer",
+"It is an application specific network model"
+],
+"answer": "A structured way to discuss and easier update system components",
+"explanation": "OSI provides structured layering."
+},
+{
+"question": "OSI stands for __________",
+"option": [
+"open system interconnection",
+"operating system interface",
+"optical service implementation",
+"open service Internet"
+],
+"answer": "open system interconnection",
+"explanation": "OSI is a networking model."
+},
+{
+"question": "TCP/IP model does not have ______ layer but OSI model have this layer.",
+"option": [
+"session layer",
+"transport layer",
+"application layer",
+"network layer"
+],
+"answer": "session layer",
+"explanation": "TCP/IP merges session into application."
+},
+{
+"question": "Which layer is used to link the network support layers and user support layers?",
+"option": [
+"session layer",
+"data link layer",
+"transport layer",
+"network layer"
+],
+"answer": "transport layer",
+"explanation": "Transport connects lower and upper layers."
+},
+{
+"question": "Which address is used on the internet for employing the TCP/IP protocols?",
+"option": [
+"physical address and logical address",
+"port address",
+"specific address",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "All address types are used."
+},
+{
+"question": "TCP/IP model was developed _____ the OSI model.",
+"option": ["prior to", "after", "simultaneous to", "with no link to"],
+"answer": "prior to",
+"explanation": "TCP/IP existed before OSI."
+},
+{
+"question": "Which layer is responsible for process to process delivery in a general network model?",
+"option": [
+"network layer",
+"transport layer",
+"session layer",
+"data link layer"
+],
+"answer": "transport layer",
+"explanation": "Transport ensures end-to-end delivery."
+},
+{
+"question": "Which address is used to identify a process on a host by the transport layer?",
+"option": [
+"physical address",
+"logical address",
+"port address",
+"specific address"
+],
+"answer": "port address",
+"explanation": "Ports identify processes."
+},
+{
+"question": "Which layer provides the services to user?",
+"option": [
+"application layer",
+"session layer",
+"presentation layer",
+"physical layer"
+],
+"answer": "application layer",
+"explanation": "Application layer interfaces with users."
+},
+{
+"question": "Transmission data rate is decided by ____________",
+"option": [
+"network layer",
+"physical layer",
+"data link layer",
+"transport layer"
+],
+"answer": "physical layer",
+"explanation": "Physical layer handles transmission speed."
+},
+{
+"question": "The physical layer is concerned with ___________",
+"option": [
+"bit-by-bit delivery",
+"process to process delivery",
+"application to application delivery",
+"port to port delivery"
+],
+"answer": "bit-by-bit delivery",
+"explanation": "Physical layer transmits raw bits."
+},
+{
+"question": "Which transmission media provides the highest transmission speed in a network?",
+"option": [
+"coaxial cable",
+"twisted pair cable",
+"optical fiber",
+"electrical cable"
+],
+"answer": "optical fiber",
+"explanation": "Fiber provides highest speed."
+},
+{
+"question": "Bits can be sent over guided and unguided media as analog signal by ___________",
+"option": [
+"digital modulation",
+"amplitude modulation",
+"frequency modulation",
+"phase modulation"
+],
+"answer": "digital modulation",
+"explanation": "Digital data is converted for transmission."
+},
+{
+"question": "The portion of physical layer that interfaces with the media access control sublayer is called ___________",
+"option": [
+"physical signalling sublayer",
+"physical data sublayer",
+"physical address sublayer",
+"physical transport sublayer"
+],
+"answer": "physical signalling sublayer",
+"explanation": "It connects PHY with MAC."
+},
+{
+"question": "The physical layer provides __________",
+"option": [
+"mechanical specifications of electrical connectors and cables",
+"electrical specification of transmission line signal level",
+"specification for IR over optical fiber",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "Physical layer defines all transmission specs."
+},
+{
+"question": "In asynchronous serial communication the physical layer provides ___________",
+"option": [
+"start and stop signalling",
+"flow control",
+"both start & stop signalling and flow control",
+"only start signalling"
+],
+"answer": "start and stop signalling",
+"explanation": "Async uses start and stop bits."
+},
+{
+"question": "The physical layer is responsible for __________",
+"option": [
+"line coding",
+"channel coding",
+"modulation",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "All are physical layer tasks."
+},
+{
+"question": "The physical layer translates logical communication requests from the ______ into hardware specific operations.",
+"option": [
+"data link layer",
+"network layer",
+"trasnport layer",
+"application layer"
+],
+"answer": "data link layer",
+"explanation": "Physical layer receives instructions from data link."
+},
+{
+"question": "A single channel is shared by multiple signals by ____________",
+"option": [
+"analog modulation",
+"digital modulation",
+"multiplexing",
+"phase modulation"
+],
+"answer": "multiplexing",
+"explanation": "Multiplexing combines signals."
+},
+{
+"question": "Wireless transmission of signals can be done via ___________",
+"option": [
+"radio waves",
+"microwaves",
+"infrared",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "All are wireless mediums."
+},
+
+{
+"question": "The data link layer takes the packets from _________ and encapsulates them into frames for transmission.",
+"option": ["network layer", "physical layer", "transport layer", "application layer"],
+"answer": "network layer",
+"explanation": "Data link layer receives packets from network layer."
+},
+{
+"question": "Which of the following tasks is not done by data link layer?",
+"option": ["framing", "error control", "flow control", "channel coding"],
+"answer": "channel coding",
+"explanation": "Channel coding is handled by physical layer."
+},
+{
+"question": "Which sublayer of the data link layer performs data link functions that depend upon the type of medium?",
+"option": [
+"logical link control sublayer",
+"media access control sublayer",
+"network interface control sublayer",
+"error control sublayer"
+],
+"answer": "media access control sublayer",
+"explanation": "MAC depends on transmission medium."
+},
+{
+"question": "Header of a frame generally contains ______________",
+"option": [
+"synchronization bytes",
+"addresses",
+"frame identifier",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "Frame header contains multiple control fields."
+},
+{
+"question": "Automatic repeat request error management mechanism is provided by ________",
+"option": [
+"logical link control sublayer",
+"media access control sublayer",
+"network interface control sublayer",
+"application access control sublayer"
+],
+"answer": "logical link control sublayer",
+"explanation": "LLC handles error control and ARQ."
+},
+{
+"question": "When 2 or more bits in a data unit has been changed during the transmission, the error is called ____________",
+"option": ["random error", "burst error", "inverted error", "double error"],
+"answer": "burst error",
+"explanation": "Multiple bit errors are burst errors."
+},
+{
+"question": "CRC stands for __________",
+"option": [
+"cyclic redundancy check",
+"code repeat check",
+"code redundancy check",
+"cyclic repeat check"
+],
+"answer": "cyclic redundancy check",
+"explanation": "CRC detects transmission errors."
+},
+{
+"question": "Which of the following is a data link protocol?",
+"option": ["ethernet", "point to point protocol", "hdlc", "all of the mentioned"],
+"answer": "all of the mentioned",
+"explanation": "All listed are data link protocols."
+},
+{
+"question": "Which of the following is the multiple access protocol for channel access control?",
+"option": ["CSMA/CD", "CSMA/CA", "Both CSMA/CD & CSMA/CA", "HDLC"],
+"answer": "Both CSMA/CD & CSMA/CA",
+"explanation": "Both are MAC protocols."
+},
+{
+"question": "The technique of temporarily delaying outgoing acknowledgements so that they can be hooked onto the next outgoing data frame is called ____________",
+"option": [
+"piggybacking",
+"cyclic redundancy check",
+"fletcher’s checksum",
+"parity check"
+],
+"answer": "piggybacking",
+"explanation": "Piggybacking improves efficiency."
+},
+{
+"question": "The network layer is concerned with __________ of data.",
+"option": ["bits", "frames", "packets", "bytes"],
+"answer": "packets",
+"explanation": "Network layer handles packets."
+},
+{
+"question": "Which one of the following is not a function of network layer?",
+"option": [
+"routing",
+"inter-networking",
+"congestion control",
+"error control"
+],
+"answer": "error control",
+"explanation": "Error control is mainly data link/transport task."
+},
+{
+"question": "A 4 byte IP address consists of __________",
+"option": [
+"only network address",
+"only host address",
+"network address & host address",
+"network address & MAC address"
+],
+"answer": "network address & host address",
+"explanation": "IP address has network and host parts."
+},
+{
+"question": "In virtual circuit network each packet contains ___________",
+"option": [
+"full source and destination address",
+"a short VC number",
+"only source address",
+"only destination address"
+],
+"answer": "a short VC number",
+"explanation": "VC networks use identifiers."
+},
+{
+"question": "Which of the following routing algorithms can be used for network layer design?",
+"option": [
+"shortest path algorithm",
+"distance vector routing",
+"link state routing",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "All are routing algorithms."
+},
+{
+"question": "Which of the following is not correct in relation to multi-destination routing?",
+"option": [
+"is same as broadcast routing",
+"contains the list of all destinations",
+"data is not sent by packets",
+"there are multiple receivers"
+],
+"answer": "data is not sent by packets",
+"explanation": "Data is still packet-based."
+},
+{
+"question": "A subset of a network that includes all the routers but contains no loops is called ________",
+"option": [
+"spanning tree",
+"spider structure",
+"spider tree",
+"special tree"
+],
+"answer": "spanning tree",
+"explanation": "Spanning tree avoids loops."
+},
+{
+"question": "Which one of the following algorithm is not used for congestion control?",
+"option": [
+"traffic aware routing",
+"admission control",
+"load shedding",
+"routing information protocol"
+],
+"answer": "routing information protocol",
+"explanation": "RIP is a routing protocol."
+},
+{
+"question": "The network layer protocol for internet is __________",
+"option": [
+"ethernet",
+"internet protocol",
+"hypertext transfer protocol",
+"file transfer protocol"
+],
+"answer": "internet protocol",
+"explanation": "IP operates at network layer."
+},
+{
+"question": "ICMP is primarily used for __________",
+"option": [
+"error and diagnostic functions",
+"addressing",
+"forwarding",
+"routing"
+],
+"answer": "error and diagnostic functions",
+"explanation": "ICMP reports errors."
+},
+{
+"question": "Transport layer aggregates data from different applications into a single stream before passing it to ____________",
+"option": [
+"network layer",
+"data link layer",
+"application layer",
+"physical layer"
+],
+"answer": "network layer",
+"explanation": "Transport passes data to network layer."
+},
+{
+"question": "Which of the following are transport layer protocols used in networking?",
+"option": [
+"TCP and FTP",
+"UDP and HTTP",
+"TCP and UDP",
+"HTTP and FTP"
+],
+"answer": "TCP and UDP",
+"explanation": "Both operate at transport layer."
+},
+{
+"question": "User datagram protocol is called connectionless because _____________",
+"option": [
+"all UDP packets are treated independently by transport layer",
+"it sends data as a stream of related packets",
+"it is received in the same order as sent order",
+"it sends data very quickly"
+],
+"answer": "all UDP packets are treated independently by transport layer",
+"explanation": "UDP has no connection setup."
+},
+{
+"question": "Transmission control protocol ___________",
+"option": [
+"is a connection-oriented protocol",
+"uses a three way handshake to establish a connection",
+"receives data from application as a single stream",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "TCP provides reliable connection."
+},
+{
+"question": "An endpoint of an inter-process communication flow across a computer network is called __________",
+"option": ["socket", "pipe", "port", "machine"],
+"answer": "socket",
+"explanation": "Socket is communication endpoint."
+},
+{
+"question": "Socket-style API for windows is called ____________",
+"option": ["wsock", "winsock", "wins", "sockwi"],
+"answer": "winsock",
+"explanation": "Windows uses Winsock API."
+},
+{
+"question": "Which one of the following is a version of UDP with congestion control?",
+"option": [
+"datagram congestion control protocol",
+"stream control transmission protocol",
+"structured stream transport",
+"user congestion control protocol"
+],
+"answer": "datagram congestion control protocol",
+"explanation": "DCCP adds congestion control."
+},
+{
+"question": "A _____ is a TCP name for a transport service access point.",
+"option": ["port", "pipe", "node", "protocol"],
+"answer": "port",
+"explanation": "Port identifies application."
+},
+{
+"question": "Transport layer protocols deals with ____________",
+"option": [
+"application to application communication",
+"process to process communication",
+"node to node communication",
+"man to man communication"
+],
+"answer": "process to process communication",
+"explanation": "Transport layer connects processes."
+},
+{
+"question": "Which of the following is a transport layer protocol?",
+"option": [
+"stream control transmission protocol",
+"internet control message protocol",
+"neighbor discovery protocol",
+"dynamic host configuration protocol"
+],
+"answer": "stream control transmission protocol",
+"explanation": "SCTP is transport layer protocol."
+},
+{
+"question": "Physical or logical arrangement of network is ___*******",
+"option": ["Topology", "Routing", "Networking", "Control"],
+"answer": "Topology",
+"explanation": "Topology defines network layout."
+},
+{
+"question": "Which network topology requires a central controller or hub?",
+"option": ["Star", "Mesh", "Ring", "Bus"],
+"answer": "Star",
+"explanation": "Star uses central hub."
+},
+{
+"question": "******* topology requires a multipoint connection.",
+"option": ["Star", "Mesh", "Ring", "Bus"],
+"answer": "Bus",
+"explanation": "Bus shares a common link."
+},
+{
+"question": "Data communication system spanning states, countries, or the whole world is ********",
+"option": ["LAN", "WAN", "MAN", "PAN"],
+"answer": "WAN",
+"explanation": "WAN covers large areas."
+},
+{
+"question": "Data communication system within a building or campus is********",
+"option": ["LAN", "WAN", "MAN", "PAN"],
+"answer": "LAN",
+"explanation": "LAN is limited area network."
+},
+{
+"question": "WAN stands for __________",
+"option": [
+"World area network",
+"Wide area network",
+"Web area network",
+"Web access network"
+],
+"answer": "Wide area network",
+"explanation": "WAN connects distant networks."
+},
+{
+"question": "In TDM, slots are further divided into _____*****",
+"option": ["Seconds", "Frames", "Packets", "Bits"],
+"answer": "Bits",
+"explanation": "Time slots carry bits."
+},
+{
+"question": "***** is the multiplexing technique that shifts each signal to a different carrier frequency.",
+"option": ["FDM", "TDM", "Both FDM & TDM", "PDM"],
+"answer": "FDM",
+"explanation": "FDM uses frequency bands."
+},
+{
+"question": "The three topologies associated with LANs are _________",
+"option": [
+"Mesh, Tree and Bus topology",
+"Tree, Circular and Ring topology",
+"Bus, Ring and Star topology",
+"Hybrid, Mesh and Star topology"
+],
+"answer": "Bus, Ring and Star topology",
+"explanation": "These are common LAN topologies."
+},
+{
+"question": "A pseudo topology that combines a Star topology with either Ring or Bus topology is known as ___________",
+"option": ["Router", "Hub", "Ethernet", "Switches"],
+"answer": "Hub",
+"explanation": "Hub enables star-bus hybrid."
+},
+{
+"question": "The Tree topology is employed in network using ********",
+"option": ["Brouters", "LAN", "Switches", "WAN"],
+"answer": "Switches",
+"explanation": "Switches create hierarchical topology."
+},
+{
+"question": "******** topology is a combination of two or more topologies.",
+"option": ["Star", "Hybrid", "Bus", "Ring"],
+"answer": "Hybrid",
+"explanation": "Hybrid combines topologies."
+},
+{
+"question": "The two types of LAN deployed are __________ and ___________",
+"option": [
+"Mesh based, Bus based",
+"Hybrid based, Star based",
+"Bus based, Ring based",
+"Ring based, Tree based"
+],
+"answer": "Bus based, Ring based",
+"explanation": "LANs use bus or ring structures."
+},
+{
+"question": "Bus Architecture is implemented in LANs using ________",
+"option": [
+"Address Resolution Protocol (ARP)",
+"Hypertext Transfer Protocol (HTTP)",
+"File Transfer Protocol (FTP)",
+"Ethernet Protocol"
+],
+"answer": "Ethernet Protocol",
+"explanation": "Ethernet uses bus structure."
+},
+{
+"question": "Token Ring and FDDI configurations use the _________ topology.",
+"option": ["ring", "star", "mesh", "bus"],
+"answer": "ring",
+"explanation": "Both use ring topology."
+},
+{
+"question": "Which protocol is most frequently used in Star topology?",
+"option": ["Modem", "Cable", "DSL", "Ethernet"],
+"answer": "Ethernet",
+"explanation": "Ethernet commonly uses star topology."
+},
+{
+"question": "Linear network topology is more expensive than other topologies.",
+"option": ["True", "False"],
+"answer": "False",
+"explanation": "Bus (linear) is cheaper."
+},
+{
+"question": "The diagram given below represents ___________",
+"option": [
+"Fully connected topology",
+"Mesh topology",
+"Star topology",
+"Hybrid topology"
+],
+"answer": "Mesh topology",
+"explanation": "Fully connected network is mesh."
+},
+{
+"question": "Which is not a application layer protocol?",
+"option": ["HTTP", "SMTP", "FTP", "TCP"],
+"answer": "TCP",
+"explanation": "TCP is transport layer."
+},
+{
+"question": "The packet of information at the application layer is called __________",
+"option": ["Packet", "Message", "Segment", "Frame"],
+"answer": "Message",
+"explanation": "Application layer data is message."
+},
+{
+"question": "Which one of the following is an architecture paradigms?",
+"option": [
+"Peer to peer",
+"Client-server",
+"HTTP",
+"Both Peer-to-Peer & Client-Server"
+],
+"answer": "Both Peer-to-Peer & Client-Server",
+"explanation": "Both are architectures."
+},
+{
+"question": "Application developer has permission to decide the following on transport layer side",
+"option": [
+"Transport layer protocol",
+"Maximum buffer size",
+"Both Transport layer protocol and Maximum buffer size",
+"None of the mentioned"
+],
+"answer": "Both Transport layer protocol and Maximum buffer size",
+"explanation": "Developers choose transport configs."
+},
+{
+"question": "Application layer offers _______ service.",
+"option": [
+"End to end",
+"Process to process",
+"Both End to end and Process to process",
+"None of the mentioned"
+],
+"answer": "None of the mentioned",
+"explanation": "These are transport layer services."
+},
+{
+"question": "E-mail is _________",
+"option": [
+"Loss-tolerant application",
+"Bandwidth-sensitive application",
+"Elastic application",
+"None of the mentioned"
+],
+"answer": "Loss-tolerant application",
+"explanation": "Email tolerates delay."
+},
+{
+"question": "Pick the odd one out.",
+"option": [
+"File transfer",
+"File download",
+"E-mail",
+"Interactive games"
+],
+"answer": "Interactive games",
+"explanation": "Games are time-sensitive."
+},
+{
+"question": "Which of the following is an application layer service?",
+"option": [
+"Network virtual terminal",
+"File transfer, access, and management",
+"Mail service",
+"All of the mentioned"
+],
+"answer": "All of the mentioned",
+"explanation": "All are application services."
+},
+{
+"question": "To deliver a message to the correct application program running on a host, the _______ address must be consulted.",
+"option": ["IP", "MAC", "Port", "None of the mentioned"],
+"answer": "Port",
+"explanation": "Port identifies application."
+},
+{
+"question": "Which is a time-sensitive service?",
+"option": [
+"File transfer",
+"File download",
+"E-mail",
+"Internet telephony"
+],
+"answer": "Internet telephony",
+"explanation": "VoIP needs low delay."
+},
+{
+"question": "Transport services available to applications in one or another form _________",
+"option": [
+"Reliable data transfer",
+"Timing",
+"Security",
+"All of the mentioned"
+],
+"answer": "All of the mentioned",
+"explanation": "Transport offers all services."
+},
+{
+"question": "Electronic mail uses which Application layer protocol?",
+"option": ["SMTP", "HTTP", "FTP", "SIP"],
+"answer": "SMTP",
+"explanation": "SMTP handles email."
+},
+{
+"question": "Multiple objects can be sent over a TCP connection between client and server in a persistent HTTP connection.",
+"option": ["True", "False"],
+"answer": "True",
+"explanation": "Persistent HTTP allows reuse of connection."
+},
+{
+"question": "HTTP is ________ protocol.",
+"option": [
+"application layer",
+"transport layer",
+"network layer",
+"data link layer"
+],
+"answer": "application layer",
+"explanation": "HTTP works at application layer."
+},
+{
+"question": "In the network HTTP resources are located by",
+"option": [
+"uniform resource identifier",
+"unique resource locator",
+"unique resource identifier",
+"union resource locator"
+],
+"answer": "uniform resource identifier",
+"explanation": "URI identifies resources."
+},
+{
+"question": "HTTP client requests by establishing a __________ connection to a particular port on the server.",
+"option": [
+"user datagram protocol",
+"transmission control protocol",
+"border gateway protocol",
+"domain host control protocol"
+],
+"answer": "transmission control protocol",
+"explanation": "HTTP uses TCP."
+},
+{
+"question": "In HTTP pipelining ________________",
+"option": [
+"multiple HTTP requests are sent on a single TCP connection without waiting for the corresponding responses",
+"multiple HTTP requests can not be sent on a single TCP connection",
+"multiple HTTP requests are sent in a queue on a single TCP connection",
+"multiple HTTP requests are sent at random on a single TCP connection"
+],
+"answer": "multiple HTTP requests are sent on a single TCP connection without waiting for the corresponding responses",
+"explanation": "Pipelining improves performance."
+},
+{
+"question": "FTP server listens for connection on port number ____________",
+"option": ["20", "21", "22", "23"],
+"answer": "21",
+"explanation": "FTP control port is 21."
+},
+{
+"question": "In FTP protocol, client contacts server using ____ as the transport protocol.",
+"option": [
+"transmission control protocol",
+"user datagram protocol",
+"datagram congestion control protocol",
+"stream control transmission protocol"
+],
+"answer": "transmission control protocol",
+"explanation": "FTP uses TCP."
+},
+{
+"question": "In Active mode FTP, the client initiates both the control and data connections.",
+"option": ["True", "False"],
+"answer": "False",
+"explanation": "Server initiates data connection in active mode."
+},
+{
+"question": "The File Transfer Protocol is built on ______________",
+"option": [
+"data centric architecture",
+"service oriented architecture",
+"client server architecture",
+"connection oriented architecture"
+],
+"answer": "client server architecture",
+"explanation": "FTP uses client-server model."
+},
+{
+"question": "In File Transfer Protocol, data transfer cannot be done in ___________",
+"option": [
+"stream mode",
+"block mode",
+"compressed mode",
+"message mode"
+],
+"answer": "message mode",
+"explanation": "FTP uses stream, block, compressed modes."
+},
+{
+"question": "The entire hostname has a maximum of ___________",
+"option": ["255 characters", "127 characters", "63 characters", "31 characters"],
+"answer": "255 characters",
+"explanation": "Max hostname length is 255."
+},
+{
+"question": "A DNS client is called _________",
+"option": [
+"DNS updater",
+"DNS resolver",
+"DNS handler",
+"none of the mentioned"
+],
+"answer": "DNS resolver",
+"explanation": "Resolver queries DNS."
+},
+{
+"question": "Servers handle requests for other domains _______",
+"option": [
+"directly",
+"by contacting remote DNS server",
+"it is not possible",
+"none of the mentioned"
+],
+"answer": "by contacting remote DNS server",
+"explanation": "DNS queries recursively."
+},
+{
+"question": "DNS database contains _______",
+"option": [
+"name server records",
+"hostname-to-address records",
+"hostname aliases",
+"all of the mentioned"
+],
+"answer": "all of the mentioned",
+"explanation": "DNS stores all records."
+},
+{
+"question": "If a server has no clue about where to find the address for a hostname then _______",
+"option": [
+"server asks to the root server",
+"server asks to its adjcent server",
+"request is not processed",
+"none of the mentioned"
+],
+"answer": "server asks to the root server",
+"explanation": "Root server helps resolve."
+},
+{
+"question": "Which one of the following allows client to update their DNS entry as their IP address change?",
+"option": [
+"dynamic DNS",
+"mail transfer agent",
+"authoritative name server",
+"none of the mentioned"
+],
+"answer": "dynamic DNS",
+"explanation": "Dynamic DNS updates IP changes."
+},
+{
+"question": "Wildcard domain names start with label _______",
+"option": ["@", "*", "&", "#"],
+"answer": "*",
+"explanation": "Wildcard uses *."
+},
+{
+"question": "The right to use a domain name is delegated by domain name registers which are accredited by _______",
+"option": [
+"internet architecture board",
+"internet society",
+"internet research task force",
+"internet corporation for assigned names and numbers"
+],
+"answer": "internet corporation for assigned names and numbers",
+"explanation": "ICANN manages domains."
+},
+{
+"question": "The domain name system is maintained by _______",
+"option": [
+"distributed database system",
+"a single server",
+"a single computer",
+"none of the mentioned"
+],
+"answer": "distributed database system",
+"explanation": "DNS is distributed."
+},
+{
+"question": "Which one of the following is not true?",
+"option": [
+"multiple hostnames may correspond to a single IP address",
+"a single hostname may correspond to many IP addresses",
+"a single hostname always corresponds to a single IP address",
+"none of the mentioned"
+],
+"answer": "a single hostname always corresponds to a single IP address",
+"explanation": "One hostname can map to multiple IPs."
+},
+
+{
+"question": "Which of the following is false with respect to TCP?",
+"option": ["Connection-oriented", "Process-to-process", "Transport layer protocol", "Unreliable"],
+"answer": "Unreliable",
+"explanation": "TCP is a reliable protocol."
+},
+{
+"question": "In TCP, sending and receiving data is done as _______",
+"option": ["Stream of bytes", "Sequence of characters", "Lines of data", "Packets"],
+"answer": "Stream of bytes",
+"explanation": "TCP treats data as a continuous byte stream."
+},
+{
+"question": "TCP process may not write and read data at the same speed. So we need __________ for storage.",
+"option": ["Packets", "Buffers", "Segments", "Stacks"],
+"answer": "Buffers",
+"explanation": "Buffers store temporary data."
+},
+{
+"question": "TCP groups a number of bytes together into a packet called _______",
+"option": ["Packet", "Buffer", "Segment", "Stack"],
+"answer": "Segment",
+"explanation": "TCP data unit is called segment."
+},
+{
+"question": "Communication offered by TCP is ________",
+"option": ["Full-duplex", "Half-duplex", "Semi-duplex", "Byte by byte"],
+"answer": "Full-duplex",
+"explanation": "TCP allows simultaneous communication."
+},
+{
+"question": "To achieve reliable transport in TCP, ___________ is used to check the safe and sound arrival of data.",
+"option": ["Packet", "Buffer", "Segment", "Acknowledgment"],
+"answer": "Acknowledgment",
+"explanation": "ACK confirms data receipt."
+},
+{
+"question": "In segment header, sequence number and acknowledgement number fields refer to _______",
+"option": ["Byte number", "Buffer number", "Segment number", "Acknowledgment"],
+"answer": "Byte number",
+"explanation": "TCP tracks bytes not segments."
+},
+{
+"question": "Suppose a TCP connection is transferring a file of 1000 bytes. The first byte is numbered 10001. What is the sequence number of the segment if all data is sent in only one segment?",
+"option": ["10000", "10001", "12001", "11001"],
+"answer": "10001",
+"explanation": "Sequence number is first byte number."
+},
+{
+"question": "Bytes of data being transferred in each connection are numbered by TCP. These numbers start with a _________",
+"option": ["Fixed number", "Random sequence of 0’s and 1’s", "One", "Sequence of zero’s and one’s"],
+"answer": "Random sequence of 0’s and 1’s",
+"explanation": "TCP uses random initial sequence numbers."
+},
+{
+"question": "The value of acknowledgement field in a segment defines _______",
+"option": [
+"sequence number of the byte received previously",
+"total number of bytes to receive",
+"sequence number of the next byte to be received",
+"sequence of zeros and ones"
+],
+"answer": "sequence number of the next byte to be received",
+"explanation": "ACK indicates next expected byte."
+},
+{
+"question": "Which of the following is false with respect to UDP?",
+"option": ["Connection-oriented", "Unreliable", "Transport layer protocol", "Low overhead"],
+"answer": "Connection-oriented",
+"explanation": "UDP is connectionless."
+},
+{
+"question": "Return value of the UDP port “Chargen” is _______",
+"option": [
+"String of characters",
+"String of integers",
+"Array of characters with integers",
+"Array of zero’s and one’s"
+],
+"answer": "String of characters",
+"explanation": "Chargen returns character stream."
+},
+{
+"question": "Beyond IP, UDP provides additional services such as _______",
+"option": [
+"Routing and switching",
+"Sending and receiving of packets",
+"Multiplexing and demultiplexing",
+"Demultiplexing and error checking"
+],
+"answer": "Multiplexing and demultiplexing",
+"explanation": "UDP supports port-based multiplexing."
+},
+{
+"question": "What is the main advantage of UDP?",
+"option": ["More overload", "Reliable", "Low overhead", "Fast"],
+"answer": "Low overhead",
+"explanation": "UDP has minimal header."
+},
+{
+"question": "Port number used by Network Time Protocol (NTP) with UDP is ________",
+"option": ["161", "123", "162", "124"],
+"answer": "123",
+"explanation": "NTP uses port 123."
+},
+{
+"question": "What is the header size of a UDP packet?",
+"option": ["8 bytes", "8 bits", "16 bytes", "124 bytes"],
+"answer": "8 bytes",
+"explanation": "UDP header is fixed 8 bytes."
+},
+{
+"question": "The port number is “ephemeral port number”, if the source host is _______",
+"option": ["NTP", "Echo", "Server", "Client"],
+"answer": "Client",
+"explanation": "Clients use ephemeral ports."
+},
+{
+"question": "“Total length” field in UDP packet header is the length of _________",
+"option": [
+"Only UDP header",
+"Only data",
+"Only checksum",
+"UDP header plus data"
+],
+"answer": "UDP header plus data",
+"explanation": "Length includes header and data."
+},
+{
+"question": "Which is the correct expression for the length of UDP datagram?",
+"option": [
+"UDP length = IP length – IP header’s length",
+"UDP length = UDP length – UDP header’s length",
+"UDP length = IP length + IP header’s length",
+"UDP length = UDP length + UDP header’s length"
+],
+"answer": "UDP length = IP length – IP header’s length",
+"explanation": "UDP length excludes IP header."
+},
+{
+"question": "The ______ field is used to detect errors over the entire user datagram.",
+"option": ["udp header", "checksum", "source port", "destination port"],
+"answer": "checksum",
+"explanation": "Checksum verifies data integrity."
+},
+{
+"question": "The CIDR value represents ____________",
+"option": [
+"Number of bits in the network",
+"Number of total bits in the IP address",
+"Number of bits in the host",
+"Number of hosts remaining"
+],
+"answer": "Number of bits in the network",
+"explanation": "CIDR defines network prefix length."
+},
+{
+"question": "Which class does the IP address 192.168.10.5/24 represent?",
+"option": ["Class A", "Class C", "Class B", "Class D"],
+"answer": "Class C",
+"explanation": "192.x.x.x belongs to Class C."
+},
+{
+"question": "The CIDR value affects the subnet mask of an IP address.",
+"option": ["True", "False"],
+"answer": "True",
+"explanation": "CIDR defines subnet mask."
+},
+{
+"question": "When was the CIDR system created?",
+"option": ["2006", "1993", "1988", "1998"],
+"answer": "1993",
+"explanation": "CIDR introduced in 1993."
+},
+{
+"question": "Private IPs are calculated using CIDR values.",
+"option": ["True", "False"],
+"answer": "False",
+"explanation": "Private IPs are predefined ranges."
+},
+{
+"question": "Determine the number of subnets for the given IP 192.13.67.0/28 using the CIDR value.",
+"option": ["16", "14", "4", "8"],
+"answer": "16",
+"explanation": "Borrowed bits create 16 subnets."
+},
+{
+"question": "Determine the number of valid host IPs in each subnet for the given IP 172.16.0.0/25 using the CIDR value.",
+"option": ["7", "128", "126", "16"],
+"answer": "126",
+"explanation": "2^7 - 2 = 126 hosts."
+},
+{
+"question": "Determine the total number of valid IPs in each subnet for the given IP 192.168.10.0/26 using the CIDR value.",
+"option": ["26", "128", "6", "64"],
+"answer": "64",
+"explanation": "2^6 = 64 total addresses."
+}
+
+
+
+]

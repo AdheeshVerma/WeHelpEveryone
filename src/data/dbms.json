@@ -1,0 +1,1760 @@
+[
+  {
+    "question": "What is the full form of DBMS?",
+    "option": [
+      "Data of Binary Management System",
+      "Database Management System",
+      "Database Management Service",
+      "Data Backup Management System"
+    ],
+    "answer": "Database Management System",
+    "explanation": "DBMS stands for Database Management System."
+  },
+  {
+    "question": "What is a database?",
+    "option": [
+      "Organized collection of information that cannot be accessed, updated, and managed",
+      "Collection of data or information without organizing",
+      "Organized collection of data or information that can be accessed, updated, and managed",
+      "Organized collection of data that cannot be updated"
+    ],
+    "answer": "Organized collection of data or information that can be accessed, updated, and managed",
+    "explanation": "Database stores organized data for easy access and management."
+  },
+  {
+    "question": "What is DBMS?",
+    "option": [
+      "DBMS is a collection of queries",
+      "DBMS is a high-level language",
+      "DBMS is a programming language",
+      "DBMS stores, modifies and retrieves data"
+    ],
+    "answer": "DBMS stores, modifies and retrieves data",
+    "explanation": "DBMS manages data operations."
+  },
+  {
+    "question": "Who created the first DBMS?",
+    "option": [
+      "Edgar Frank Codd",
+      "Charles Bachman",
+      "Charles Babbage",
+      "Sharon B. Codd"
+    ],
+    "answer": "Charles Bachman",
+    "explanation": "Charles Bachman developed the first DBMS."
+  },
+  {
+    "question": "Which type of data can be stored in the database?",
+    "option": [
+      "Image oriented data",
+      "Text, files containing data",
+      "Data in the form of audio or video",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "DBMS supports multiple data formats."
+  },
+  {
+    "question": "In which format data is stored in DBMS?",
+    "option": [
+      "Image",
+      "Text",
+      "Table",
+      "Graph"
+    ],
+    "answer": "Table",
+    "explanation": "Data is stored in tabular form."
+  },
+  {
+    "question": "Which is not a type of database?",
+    "option": [
+      "Hierarchical",
+      "Network",
+      "Distributed",
+      "Decentralized"
+    ],
+    "answer": "Decentralized",
+    "explanation": "Not a standard DB type."
+  },
+  {
+    "question": "Which is not an example of DBMS?",
+    "option": [
+      "MySQL",
+      "Microsoft Access",
+      "IBM DB2",
+      "Google"
+    ],
+    "answer": "Google",
+    "explanation": "Google is not a DBMS."
+  },
+  {
+    "question": "Which is not a feature of DBMS?",
+    "option": [
+      "Minimum Duplication",
+      "High Security",
+      "Single-user Access only",
+      "Support ACID"
+    ],
+    "answer": "Single-user Access only",
+    "explanation": "DBMS supports multi-user."
+  },
+  {
+    "question": "Which is a feature of database?",
+    "option": [
+      "No backup",
+      "User interface provided",
+      "Lack of Authentication",
+      "Store data in multiple locations"
+    ],
+    "answer": "User interface provided",
+    "explanation": "DBMS provides UI."
+  },
+  {
+    "question": "Which is not a function of database?",
+    "option": [
+      "Managing data",
+      "Manipulating data",
+      "Security",
+      "Analysing code"
+    ],
+    "answer": "Analysing code",
+    "explanation": "Not a DB function."
+  },
+  {
+    "question": "Function of DBMS?",
+    "option": [
+      "Storing data",
+      "Multi-user control",
+      "Data integrity",
+      "All"
+    ],
+    "answer": "All",
+    "explanation": "DBMS handles all."
+  },
+  {
+    "question": "Component of DBMS?",
+    "option": [
+      "Data",
+      "Languages",
+      "Manager",
+      "All"
+    ],
+    "answer": "All",
+    "explanation": "All are components."
+  },
+  {
+    "question": "Set of entities of same type?",
+    "option": [
+      "Relation set",
+      "Tuples",
+      "Entity set",
+      "ER model"
+    ],
+    "answer": "Entity set",
+    "explanation": "Entity set groups similar entities."
+  },
+  {
+    "question": "Information about data is called?",
+    "option": [
+      "Hyper data",
+      "Tera data",
+      "Meta data",
+      "Relations"
+    ],
+    "answer": "Meta data",
+    "explanation": "Metadata describes data."
+  },
+  {
+    "question": "RDBMS consists of?",
+    "option": [
+      "Records",
+      "Keys",
+      "Tables",
+      "Fields"
+    ],
+    "answer": "Tables",
+    "explanation": "RDBMS uses tables."
+  },
+  {
+    "question": "Integrity constraint type?",
+    "option": [
+      "Referential",
+      "Primary",
+      "Referencing",
+      "Specific"
+    ],
+    "answer": "Referential",
+    "explanation": "Ensures valid references."
+  },
+  {
+    "question": "Important hardware?",
+    "option": [
+      "Microphone",
+      "Disk",
+      "Display",
+      "Printer"
+    ],
+    "answer": "Disk",
+    "explanation": "Storage is crucial."
+  },
+  {
+    "question": "DBMS acts as interface between?",
+    "option": [
+      "Data & DBMS",
+      "App & SQL",
+      "App & DB",
+      "User & software"
+    ],
+    "answer": "Database application and the database",
+    "explanation": "DBMS bridges app and data."
+  },
+  {
+    "question": "Query + insert/delete operations by?",
+    "option": [
+      "TCL",
+      "DCL",
+      "DDL",
+      "DML"
+    ],
+    "answer": "DML",
+    "explanation": "DML manipulates data."
+  },
+  {
+    "question": "Uniquely identify record?",
+    "option": [
+      "Primary",
+      "Foreign",
+      "Super key",
+      "Candidate"
+    ],
+    "answer": "Super key",
+    "explanation": "Super key uniquely identifies."
+  },
+  {
+    "question": "Remove relation command?",
+    "option": [
+      "Drop table",
+      "Delete",
+      "Purge",
+      "Remove"
+    ],
+    "answer": "Drop table",
+    "explanation": "Deletes table."
+  },
+  {
+    "question": "Weak entity needs?",
+    "option": [
+      "Neighbour",
+      "Strong",
+      "Owner",
+      "Identifying"
+    ],
+    "answer": "Identifying",
+    "explanation": "Needs identifying set."
+  },
+  {
+    "question": "Delete values command?",
+    "option": [
+      "Delete from teaches;",
+      "Delete with null",
+      "Remove table",
+      "Drop table"
+    ],
+    "answer": "Delete from teaches;",
+    "explanation": "Deletes rows."
+  },
+  {
+    "question": "Procedural language?",
+    "option": [
+      "DRC",
+      "TRC",
+      "Relational algebra",
+      "Query language"
+    ],
+    "answer": "Relational algebra",
+    "explanation": "Procedural query language."
+  },
+  {
+    "question": "Does not preserve unmatched tuples?",
+    "option": [
+      "Left join",
+      "Inner join",
+      "Natural join",
+      "Right join"
+    ],
+    "answer": "Inner join",
+    "explanation": "Only matched tuples kept."
+  },
+  {
+    "question": "Single entity info form?",
+    "option": [
+      "4NF",
+      "2NF",
+      "5NF",
+      "3NF"
+    ],
+    "answer": "2NF",
+    "explanation": "Eliminates partial dependency."
+  },
+  {
+    "question": "Top hierarchy level?",
+    "option": [
+      "Schemas,Catalogs",
+      "Schemas,Env",
+      "Env,Schemas",
+      "Catalogs,Schemas"
+    ],
+    "answer": "Catalogs,Schemas",
+    "explanation": "Catalog contains schemas."
+  },
+  {
+    "question": "Max entities in relationship?",
+    "option": [
+      "Greater count",
+      "Min cardinality",
+      "Max cardinality",
+      "ERD"
+    ],
+    "answer": "Maximum cardinality",
+    "explanation": "Defines max participation."
+  },
+  {
+    "question": "User IDs managed by role?",
+    "option": [
+      "db_sysadmin",
+      "db_accessadmin",
+      "db_securityadmin",
+      "db_setupadmin"
+    ],
+    "answer": "db_accessadmin",
+    "explanation": "Handles user access."
+  },
+  {
+    "question": "Why query erroneous?",
+    "option": [
+      "Dept issue",
+      "Group invalid",
+      "Avg invalid",
+      "None"
+    ],
+    "answer": "None",
+    "explanation": "Valid SQL."
+  },
+  {
+    "question": "Traditional filing system type?",
+    "option": [
+      "Object",
+      "Relational",
+      "Network",
+      "Hierarchical"
+    ],
+    "answer": "Hierarchical",
+    "explanation": "Top-down storage."
+  },
+  {
+    "question": "Clause after grouping?",
+    "option": [
+      "Where",
+      "Having",
+      "Group by",
+      "With"
+    ],
+    "answer": "Having",
+    "explanation": "Filters aggregates."
+  },
+  {
+    "question": "Not utility of DBMS?",
+    "option": [
+      "Backup",
+      "Data loading",
+      "Process organization",
+      "File organization"
+    ],
+    "answer": "Process organization",
+    "explanation": "Not DBMS utility."
+  },
+  {
+    "question": "FK + PK creates?",
+    "option": [
+      "Network",
+      "Parent-child",
+      "One-many",
+      "All"
+    ],
+    "answer": "All",
+    "explanation": "All relationships apply."
+  },
+  {
+    "question": "Maintains integrity?",
+    "option": [
+      "Pointers",
+      "Cursors",
+      "Locks",
+      "Triggers"
+    ],
+    "answer": "Locks",
+    "explanation": "Locks ensure consistency."
+  },
+  {
+    "question": "Spreadsheet file?",
+    "option": [
+      "Direct use",
+      "ASCII",
+      "All",
+      "None"
+    ],
+    "answer": "All",
+    "explanation": "Can be used multiple ways."
+  },
+  {
+    "question": "Delete from r where P?",
+    "option": [
+      "Clear entries",
+      "Delete relation",
+      "Delete tuple",
+      "All"
+    ],
+    "answer": "Delete particular tuple from relation",
+    "explanation": "Deletes specific rows."
+  },
+  {
+    "question": "Resembles create view?",
+    "option": [
+      "Create table as",
+      "Create view as",
+      "Create like",
+      "With data"
+    ],
+    "answer": "Create table as",
+    "explanation": "Similar syntax."
+  },
+  {
+    "question": "Updatable view condition?",
+    "option": [
+      "Simple select",
+      "Single table",
+      "No group by",
+      "All"
+    ],
+    "answer": "All",
+    "explanation": "All required."
+  },
+  {
+    "question": "ROLLUP operator?",
+    "option": [
+      "Find subtotal groups",
+      "Grand totals",
+      "Right-to-left grouping",
+      "Cross-tab"
+    ],
+    "answer": "Group expressions or columns specified in a GROUP BY clause in one direction, from right to left, for computing the subtotals",
+    "explanation": "ROLLUP computes hierarchical totals."
+  },
+  {
+    "question": "Best attribute representation?",
+    "option": [
+      "Dot",
+      "Concat",
+      "Relational",
+      "All"
+    ],
+    "answer": "Dot representation",
+    "explanation": "Best for clarity."
+  },
+  {
+    "question": "Manipulate Oracle structures?",
+    "option": [
+      "DDL wrong",
+      "DRL",
+      "DML",
+      "DDL"
+    ],
+    "answer": "Data Definition Language",
+    "explanation": "DDL defines structures."
+  },
+  {
+    "question": "Histogram function?",
+    "option": [
+      "Ntil()",
+      "Newtil()",
+      "Rank()",
+      "All"
+    ],
+    "answer": "Ntil()",
+    "explanation": "NTILE creates buckets."
+  },
+  {
+    "question": "Multiple create statements?",
+    "option": [
+      "Cluster",
+      "Package",
+      "Schema",
+      "All"
+    ],
+    "answer": "CREATE SCHEMA",
+    "explanation": "Executes multiple commands."
+  },
+  {
+    "question": "Key for encryption?",
+    "option": [
+      "Primary",
+      "Authorized",
+      "Encryption",
+      "Decryption"
+    ],
+    "answer": "Encryption key",
+    "explanation": "Encrypts data."
+  },
+  {
+    "question": "Cross-tab viewing?",
+    "option": [
+      "Dicing",
+      "Pivoting",
+      "Slicing",
+      "Both"
+    ],
+    "answer": "Slicing",
+    "explanation": "Fix one dimension."
+  },
+  {
+    "question": "Adequate normal form?",
+    "option": [
+      "4NF",
+      "3NF",
+      "2NF",
+      "5NF"
+    ],
+    "answer": "3NF",
+    "explanation": "Widely used."
+  },
+  {
+    "question": "Best write performance RAID?",
+    "option": [
+      "RAID 0",
+      "RAID 1",
+      "RAID 2",
+      "RAID 3"
+    ],
+    "answer": "RAID level 0",
+    "explanation": "Striping gives speed."
+  },
+  {
+    "question": "TRC query form?",
+    "option": [
+      "{ }{P(t)|t}",
+      "{t|P(t)}",
+      "t|P()|t",
+      "All"
+    ],
+    "answer": "{t | P(t)}",
+    "explanation": "Standard TRC syntax."
+  },
+  {
+    "question": "Oldest DB model?",
+    "option": [
+      "Network",
+      "Physical",
+      "Hierarchical",
+      "Relational"
+    ],
+    "answer": "Hierarchical",
+    "explanation": "First DB model."
+  },
+  {
+    "question": "Privilege outcome?",
+    "option": [
+      "Error",
+      "Remove from both",
+      "Scott can query",
+      "Scott cannot query"
+    ],
+    "answer": "SCOTT would be able to query the OE.ORDERS table",
+    "explanation": "Role still grants access."
+  },
+  {
+    "question": "Top-bottom relationship?",
+    "option": [
+      "Relational",
+      "Network",
+      "Hierarchical",
+      "All"
+    ],
+    "answer": "Hierarchical schema",
+    "explanation": "Tree structure."
+  },
+  {
+    "question": "Reduce disk-memory transfer?",
+    "option": [
+      "Secondary storage",
+      "Storage",
+      "Catalog",
+      "Buffer"
+    ],
+    "answer": "Buffer",
+    "explanation": "Buffers reduce I/O."
+  },
+  {
+    "question": "Duplicate data issue?",
+    "option": [
+      "Waste & inconsistency",
+      "Easy access",
+      "Only inconsistency",
+      "Only waste"
+    ],
+    "answer": "Storage space is wasted & Changing the data in one spot will cause data inconsistency",
+    "explanation": "Redundancy issues."
+  },
+  {
+    "question": "Logical design snapshot?",
+    "option": [
+      "Instance & Relation",
+      "Relation & Schema",
+      "Domain & Schema",
+      "Schema & Instance"
+    ],
+    "answer": "Schema & Instance",
+    "explanation": "Schema = design, Instance = data snapshot."
+  },
+  {
+    "question": "A relational database consists of a collection of",
+    "option": [
+      "Tables",
+      "Fields",
+      "Records",
+      "Keys"
+    ],
+    "answer": "Tables",
+    "explanation": "Relational DB stores data in tables."
+  },
+  {
+    "question": "A ________ in a table represents a relationship among a set of values.",
+    "option": [
+      "Column",
+      "Key",
+      "Row",
+      "Entry"
+    ],
+    "answer": "Row",
+    "explanation": "Row represents a tuple of values."
+  },
+  {
+    "question": "The term _______ is used to refer to a row.",
+    "option": [
+      "Attribute",
+      "Tuple",
+      "Field",
+      "Instance"
+    ],
+    "answer": "Tuple",
+    "explanation": "Tuple is another term for row."
+  },
+  {
+    "question": "The term attribute refers to a ___________ of a table.",
+    "option": [
+      "Record",
+      "Column",
+      "Tuple",
+      "Key"
+    ],
+    "answer": "Column",
+    "explanation": "Attribute corresponds to column."
+  },
+  {
+    "question": "For each attribute of a relation, there is a set of permitted values, called the ________.",
+    "option": [
+      "Domain",
+      "Relation",
+      "Set",
+      "Schema"
+    ],
+    "answer": "Domain",
+    "explanation": "Domain defines allowed values."
+  },
+  {
+    "question": "Database __________ and database _______.",
+    "option": [
+      "Instance, Schema",
+      "Relation, Schema",
+      "Relation, Domain",
+      "Schema, Instance"
+    ],
+    "answer": "Schema, Instance",
+    "explanation": "Schema is design, instance is data snapshot."
+  },
+  {
+    "question": "Course(course_id,sec_id,semester)",
+    "option": [
+      "Relations, Attribute",
+      "Attributes, Relation",
+      "Tuple, Relation",
+      "Tuple, Attributes"
+    ],
+    "answer": "Attributes, Relation",
+    "explanation": "Fields are attributes, course is relation."
+  },
+  {
+    "question": "Common attribute dept_name relates ______ relations.",
+    "option": [
+      "Attributes of common",
+      "Tuple of common",
+      "Tuple of distinct",
+      "Attributes of distinct"
+    ],
+    "answer": "Attributes of distinct",
+    "explanation": "Common attributes relate distinct relations."
+  },
+  {
+    "question": "A domain is atomic if elements are __________.",
+    "option": [
+      "Different",
+      "Indivisible",
+      "Constant",
+      "Divisible"
+    ],
+    "answer": "Indivisible",
+    "explanation": "Atomic means cannot be divided."
+  },
+  {
+    "question": "Tuples of relations can be of ______ order.",
+    "option": [
+      "Any",
+      "Same",
+      "Sorted",
+      "Constant"
+    ],
+    "answer": "Any",
+    "explanation": "Order does not matter."
+  },
+  {
+    "question": "Set of attributes uniquely identifying a record?",
+    "option": [
+      "Candidate key",
+      "Sub key",
+      "Super key",
+      "Foreign key"
+    ],
+    "answer": "Super key",
+    "explanation": "Super key uniquely identifies tuples."
+  },
+  {
+    "question": "Super key example?",
+    "option": [
+      "NAME",
+      "ID",
+      "CITY",
+      "CITY, ID"
+    ],
+    "answer": "CITY, ID",
+    "explanation": "Combination uniquely identifies."
+  },
+  {
+    "question": "Subset of super key is candidate key when?",
+    "option": [
+      "No proper subset is super key",
+      "All subsets are super keys",
+      "Subset is super key",
+      "Each subset is super key"
+    ],
+    "answer": "No proper subset is super key",
+    "explanation": "Minimal uniqueness required."
+  },
+  {
+    "question": "Property ensuring uniqueness?",
+    "option": [
+      "Rows",
+      "Key",
+      "Attribute",
+      "Fields"
+    ],
+    "answer": "Key",
+    "explanation": "Key ensures uniqueness."
+  },
+  {
+    "question": "Best primary key?",
+    "option": [
+      "Name",
+      "Street",
+      "Id",
+      "Department"
+    ],
+    "answer": "Id",
+    "explanation": "Unique and stable."
+  },
+  {
+    "question": "Cannot be primary key?",
+    "option": [
+      "Id",
+      "Register number",
+      "Dept_id",
+      "Street"
+    ],
+    "answer": "Street",
+    "explanation": "Not unique."
+  },
+  {
+    "question": "Foreign key comes from ______ key.",
+    "option": [
+      "Candidate",
+      "Primary",
+      "Super",
+      "Sub"
+    ],
+    "answer": "Primary",
+    "explanation": "References primary key."
+  },
+  {
+    "question": "Relation having primary key is called?",
+    "option": [
+      "Referential",
+      "Referencing",
+      "Referenced",
+      "Referred"
+    ],
+    "answer": "Referenced",
+    "explanation": "Other tables refer to it."
+  },
+  {
+    "question": "Relation using foreign key is called?",
+    "option": [
+      "Referential",
+      "Referencing",
+      "Referenced",
+      "Referred"
+    ],
+    "answer": "Referencing",
+    "explanation": "It references another relation."
+  },
+  {
+    "question": "Integrity constraint type?",
+    "option": [
+      "Referential",
+      "Referencing",
+      "Specific",
+      "Primary"
+    ],
+    "answer": "Referential",
+    "explanation": "Ensures valid references."
+  },
+  {
+    "question": "Language to request data?",
+    "option": [
+      "Query",
+      "Relational",
+      "Structural",
+      "Compiler"
+    ],
+    "answer": "Query",
+    "explanation": "SQL is query language."
+  },
+  {
+    "question": "Primary key in Student table?",
+    "option": [
+      "Name",
+      "Dept",
+      "Tot_cred",
+      "ID"
+    ],
+    "answer": "ID",
+    "explanation": "Unique identifier."
+  },
+  {
+    "question": "Procedural language?",
+    "option": [
+      "DRC",
+      "TRC",
+      "Relational algebra",
+      "Query"
+    ],
+    "answer": "Relational algebra",
+    "explanation": "Procedural query language."
+  },
+  {
+    "question": "Combining tuples operation?",
+    "option": [
+      "Select",
+      "Join",
+      "Union",
+      "Intersection"
+    ],
+    "answer": "Join",
+    "explanation": "Join merges tuples."
+  },
+  {
+    "question": "All pairs of tuples?",
+    "option": [
+      "Join",
+      "Cartesian product",
+      "Intersection",
+      "Set difference"
+    ],
+    "answer": "Cartesian product",
+    "explanation": "All combinations."
+  },
+  {
+    "question": "Union of tables?",
+    "option": [
+      "Union",
+      "Join",
+      "Product",
+      "Intersect"
+    ],
+    "answer": "Union",
+    "explanation": "Combines rows."
+  },
+  {
+    "question": "Projection operation?",
+    "option": [
+      "Join",
+      "Projection",
+      "Select",
+      "Union"
+    ],
+    "answer": "Projection",
+    "explanation": "Selects columns."
+  },
+  {
+    "question": "Common rows operator?",
+    "option": [
+      "Union",
+      "Intersect",
+      "Difference",
+      "Projection"
+    ],
+    "answer": "Intersect",
+    "explanation": "Returns common rows."
+  },
+  {
+    "question": "Pictorial schema?",
+    "option": [
+      "Schema diagram",
+      "Relational algebra",
+      "Database diagram",
+      "Schema flow"
+    ],
+    "answer": "Schema diagram",
+    "explanation": "Visual representation."
+  },
+  {
+    "question": "Operations returning relations?",
+    "option": [
+      "Schematic",
+      "Relational algebra",
+      "Scheme diagram",
+      "Relation flow"
+    ],
+    "answer": "Relational algebra",
+    "explanation": "Core DB operations."
+  },
+  {
+    "question": "Define structure language?",
+    "option": [
+      "DML",
+      "DDL",
+      "Query",
+      "Schema"
+    ],
+    "answer": "DDL",
+    "explanation": "Defines schema."
+  },
+  {
+    "question": "Manipulate data language?",
+    "option": [
+      "DML",
+      "DDL",
+      "Query",
+      "Schema"
+    ],
+    "answer": "DML",
+    "explanation": "Handles CRUD operations."
+  },
+  {
+    "question": "CREATE TABLE type?",
+    "option": [
+      "DML",
+      "DDL",
+      "View",
+      "Constraint"
+    ],
+    "answer": "DDL",
+    "explanation": "Defines table."
+  },
+  {
+    "question": "SELECT type?",
+    "option": [
+      "DML",
+      "DDL",
+      "View",
+      "Constraint"
+    ],
+    "answer": "DML",
+    "explanation": "Retrieves data."
+  },
+  {
+    "question": "char vs varchar?",
+    "option": [
+      "Fixed,equal",
+      "Equal,variable",
+      "Fixed,variable",
+      "Variable,equal"
+    ],
+    "answer": "Fixed,variable",
+    "explanation": "char fixed, varchar variable."
+  },
+  {
+    "question": "Spaces in char/varchar?",
+    "option": [
+      "3,20",
+      "20,4",
+      "20,20",
+      "3,4"
+    ],
+    "answer": "20,4",
+    "explanation": "char pads spaces."
+  },
+  {
+    "question": "Remove relation command?",
+    "option": [
+      "Delete",
+      "Purge",
+      "Remove",
+      "Drop table"
+    ],
+    "answer": "Drop table",
+    "explanation": "Deletes table."
+  },
+  {
+    "question": "DELETE FROM r does?",
+    "option": [
+      "Remove relation",
+      "Clear entries",
+      "Delete fields",
+      "Delete rows"
+    ],
+    "answer": "Clear relation entries",
+    "explanation": "Removes all rows."
+  },
+  {
+    "question": "INSERT type?",
+    "option": [
+      "Query",
+      "DML",
+      "Relational",
+      "DDL"
+    ],
+    "answer": "DML",
+    "explanation": "Inserts data."
+  },
+  {
+    "question": "Violating updates?",
+    "option": [
+      "Integrity constraints",
+      "Transaction",
+      "Authorization",
+      "DDL"
+    ],
+    "answer": "Integrity constraints",
+    "explanation": "Must maintain consistency."
+  },
+  {
+    "question": "Display name column?",
+    "option": [
+      "Select employee from name",
+      "Select name",
+      "Select name from employee",
+      "Select employee"
+    ],
+    "answer": "Select name from employee",
+    "explanation": "Correct syntax."
+  },
+  {
+    "question": "Unique values keyword?",
+    "option": [
+      "All",
+      "From",
+      "Distinct",
+      "Name"
+    ],
+    "answer": "Distinct",
+    "explanation": "Removes duplicates."
+  },
+  {
+    "question": "Clause filtering rows?",
+    "option": [
+      "Where,from",
+      "From,select",
+      "Select,from",
+      "From,where"
+    ],
+    "answer": "Where,from",
+    "explanation": "WHERE filters rows."
+  },
+  {
+    "question": "Fix query error?",
+    "option": [
+      "Salary",
+      "ID",
+      "Where",
+      "Instructor"
+    ],
+    "answer": "Where",
+    "explanation": "Replace WHERE with FROM."
+  },
+  {
+    "question": "List attributes clause?",
+    "option": [
+      "Where",
+      "Select",
+      "From",
+      "Distinct"
+    ],
+    "answer": "Select",
+    "explanation": "SELECT chooses columns."
+  },
+  {
+    "question": "Equivalent join query?",
+    "option": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "b",
+    "explanation": "Natural join replaces condition."
+  },
+  {
+    "question": "Output fields?",
+    "option": [
+      "Salary,dept",
+      "Employee",
+      "Salary",
+      "All"
+    ],
+    "answer": "All",
+    "explanation": "SELECT * returns all."
+  },
+  {
+    "question": "employee_id>1009?",
+    "option": [
+      "1009,1001,1018",
+      "1009,1018",
+      "1001",
+      "1018"
+    ],
+    "answer": "1018",
+    "explanation": "Only >1009."
+  },
+  {
+    "question": "Error statement?",
+    "option": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "d",
+    "explanation": "Missing FROM clause."
+  },
+  {
+    "question": "INSERT keyword?",
+    "option": [
+      "Table",
+      "Values",
+      "Relation",
+      "Field"
+    ],
+    "answer": "Values",
+    "explanation": "VALUES used in insert."
+  },
+  {
+    "question": "Rename field keyword?",
+    "option": [
+      "From",
+      "Rename",
+      "As",
+      "Join"
+    ],
+    "answer": "As",
+    "explanation": "AS renames columns."
+  },
+  {
+    "question": "SQL error?",
+    "option": [
+      "Dept_name",
+      "Employee",
+      "\"Comp Sci\"",
+      "From"
+    ],
+    "answer": "\"Comp Sci\"",
+    "explanation": "Use single quotes."
+  },
+  {
+    "question": "LIKE ending string?",
+    "option": [
+      "%",
+      "_",
+      "||",
+      "$"
+    ],
+    "answer": "%",
+    "explanation": "% matches any string."
+  },
+  {
+    "question": "Pattern match underscores?",
+    "option": [
+      "Atleast,Exactly",
+      "Exactly,Atleast",
+      "Atleast,All",
+      "All,Exactly"
+    ],
+    "answer": "Exactly,Atleast",
+    "explanation": "_ matches one char."
+  },
+  {
+    "question": "Default order?",
+    "option": [
+      "Descending",
+      "Any",
+      "Same",
+      "Ascending"
+    ],
+    "answer": "Ascending",
+    "explanation": "ORDER BY default ASC."
+  },
+  {
+    "question": "Sort salary desc name asc?",
+    "option": [
+      "Asc,Desc",
+      "Asc,Desc",
+      "Desc,Asc",
+      "Descending,Ascending"
+    ],
+    "answer": "Desc,Asc",
+    "explanation": "Salary desc, name asc."
+  },
+  {
+    "question": "Replace query?",
+    "option": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "answer": "a",
+    "explanation": "BETWEEN simplifies."
+  },
+  {
+    "question": "Instructor.* query?",
+    "option": [
+      "All both",
+      "Instructor only",
+      "Teaches only",
+      "Some"
+    ],
+    "answer": "Instructor only",
+    "explanation": "Selects instructor fields."
+  },
+  {
+    "question": "Trim function?",
+    "option": [
+      "Upper",
+      "String",
+      "Trim",
+      "Lower"
+    ],
+    "answer": "Trim",
+    "explanation": "Removes spaces."
+  },
+  {
+    "question": "Append strings operator?",
+    "option": [
+      "&",
+      "%",
+      "||",
+      "_"
+    ],
+    "answer": "||",
+    "explanation": "Concatenation operator."
+  },
+  {
+    "question": "Union symbol?",
+    "option": [
+      "∩",
+      "U",
+      "-",
+      "*"
+    ],
+    "answer": "U",
+    "explanation": "Union symbol U."
+  },
+  {
+    "question": "Intersection gives?",
+    "option": [
+      "Different",
+      "Common",
+      "All",
+      "Repeating"
+    ],
+    "answer": "Common",
+    "explanation": "Common tuples."
+  },
+  {
+    "question": "Union removes?",
+    "option": [
+      "Adds tuples",
+      "Eliminates unique",
+      "Adds common",
+      "Eliminates duplicate"
+    ],
+    "answer": "Eliminates duplicate",
+    "explanation": "Union removes duplicates."
+  },
+  {
+    "question": "Keep duplicates?",
+    "option": [
+      "Union all",
+      "Union some",
+      "Intersect all",
+      "Intersect some"
+    ],
+    "answer": "Union all",
+    "explanation": "Keeps duplicates."
+  },
+  {
+    "question": "EXCEPT query result?",
+    "option": [
+      "Second only",
+      "Common",
+      "Both",
+      "First minus second"
+    ],
+    "answer": "First minus second",
+    "explanation": "Removes second set."
+  },
+  {
+    "question": "LIKE predicate?",
+    "option": [
+      "i",
+      "ii",
+      "i & ii",
+      "None"
+    ],
+    "answer": "i & ii",
+    "explanation": "Both correct."
+  },
+  {
+    "question": "Number of attributes?",
+    "option": [
+      "Cardinality",
+      "Degree",
+      "Tuples",
+      "Entity"
+    ],
+    "answer": "Degree",
+    "explanation": "Degree = attributes."
+  },
+  {
+    "question": "Additional filter clause?",
+    "option": [
+      "Select",
+      "Group-by",
+      "Having",
+      "Order by"
+    ],
+    "answer": "Having",
+    "explanation": "Filters groups."
+  },
+  {
+    "question": "Default joins?",
+    "option": [
+      "Outer",
+      "Inner",
+      "Equi",
+      "None"
+    ],
+    "answer": "Inner",
+    "explanation": "Default join."
+  },
+  {
+    "question": "Pattern search operator?",
+    "option": [
+      "Like",
+      "Null",
+      "In",
+      "Out"
+    ],
+    "answer": "Like",
+    "explanation": "LIKE finds patterns."
+  },
+  {
+    "question": "A _____ indicates an absent value that may exist but be unknown or that may not exist at all.",
+    "option": ["Empty tuple", "New value", "Null value", "Old value"],
+    "answer": "Null value",
+    "explanation": "Null represents missing or unknown values."
+  },
+  {
+    "question": "If the attribute phone number is included in the relation all the values need not be entered into the phone number column. This type of entry is given as",
+    "option": ["0", "-", "Null", "Empty space"],
+    "answer": "Null",
+    "explanation": "Null indicates absence of value."
+  },
+  {
+    "question": "The predicate in a where clause can involve Boolean operations such as and. The result of true and unknown is_______ false and unknown is _____ while unknown and unknown is _____",
+    "option": ["Unknown, unknown, false", "True, false, unknown", "True, unknown, unknown", "Unknown, false, unknown"],
+    "answer": "Unknown, false, unknown",
+    "explanation": "Boolean logic with unknown follows SQL three-valued logic."
+  },
+  {
+    "question": "SELECT name FROM instructor WHERE salary IS NOT NULL; Selects",
+    "option": ["Tuples with null value", "Tuples with no null values", "Tuples with any salary", "All of the mentioned"],
+    "answer": "Tuples with no null values",
+    "explanation": "IS NOT NULL filters out null salaries."
+  },
+  {
+    "question": "In an employee table to include the attributes whose value always have some value which constraint must be used?",
+    "option": ["Null", "Not null", "Unique", "Distinct"],
+    "answer": "Not null",
+    "explanation": "NOT NULL ensures attribute always has a value."
+  },
+  {
+    "question": "Using the ______ clause retains only one copy of identical tuples.",
+    "option": ["Null", "Unique", "Not null", "Distinct"],
+    "answer": "Distinct",
+    "explanation": "DISTINCT removes duplicates."
+  },
+  {
+    "question": "Identify the insert statement that produces an error.",
+    "option": [
+      "Insert into employee values (1005,Rach,0);",
+      "Insert into employee values (1002,Joey,335);",
+      "Insert into employee values (1007,Ross, );",
+      "None of the mentioned"
+    ],
+    "answer": "Insert into employee values (1007,Ross, );",
+    "explanation": "Missing value violates NOT NULL constraint."
+  },
+  {
+    "question": "The primary key must be",
+    "option": ["Unique", "Not null", "Both Unique and Not null", "Either Unique or Not null"],
+    "answer": "Both Unique and Not null",
+    "explanation": "Primary key must be unique and not null."
+  },
+  {
+    "question": "Why does NVL(100/quantity, NONE) cause error?",
+    "option": [
+      "Divide by null",
+      "Incompatible data types",
+      "NONE should be in quotes",
+      "Null cannot convert"
+    ],
+    "answer": "NONE should be in quotes",
+    "explanation": "Strings must be enclosed in quotes."
+  },
+  {
+    "question": "The result of _____unknown is unknown.",
+    "option": ["Xor", "Or", "And", "Not"],
+    "answer": "Not",
+    "explanation": "NOT unknown remains unknown."
+  },
+
+  {
+    "question": "Aggregate functions take a ______ as input and return a single value.",
+    "option": ["Collection of values", "Single value", "Aggregate value", "Both"],
+    "answer": "Collection of values",
+    "explanation": "Aggregates operate on sets."
+  },
+  {
+    "question": "Which function finds mean salary?",
+    "option": ["Mean(salary)", "Avg(salary)", "Sum(salary)", "Count(salary)"],
+    "answer": "Avg(salary)",
+    "explanation": "AVG computes mean."
+  },
+  {
+    "question": "To eliminate duplicates in COUNT use keyword ______.",
+    "option": ["Distinct", "Count", "Avg", "Primary key"],
+    "answer": "Distinct",
+    "explanation": "DISTINCT removes duplicates."
+  },
+  {
+    "question": "All aggregate functions except _____ ignore null values.",
+    "option": ["Count(attribute)", "Count(*)", "Avg", "Sum"],
+    "answer": "Count(*)",
+    "explanation": "COUNT(*) counts all rows."
+  },
+  {
+    "question": "Boolean type includes true, false and ______.",
+    "option": ["1", "0", "Null", "Unknown"],
+    "answer": "Unknown",
+    "explanation": "SQL uses three-valued logic."
+  },
+  {
+    "question": "The ____ connective tests for membership and ____ for absence.",
+    "option": ["Or, in", "Not in, in", "In, not in", "In, or"],
+    "answer": "In, not in",
+    "explanation": "IN checks presence, NOT IN absence."
+  },
+  {
+    "question": "Greater than at least one is represented by",
+    "option": ["< all", "< some", "> all", "> some"],
+    "answer": "> some",
+    "explanation": "SOME means at least one."
+  },
+  {
+    "question": "Test nonexistence of tuples using",
+    "option": ["Not exist", "Not exists", "Exists", "Exist"],
+    "answer": "Not exists",
+    "explanation": "NOT EXISTS checks absence."
+  },
+
+  {
+    "question": "The____condition allows a general predicate over joins.",
+    "option": ["On", "Using", "Set", "Where"],
+    "answer": "On",
+    "explanation": "ON defines join condition."
+  },
+  {
+    "question": "Which join does not preserve unmatched tuples?",
+    "option": ["Left outer join", "Right outer join", "Inner join", "Natural join"],
+    "answer": "Inner join",
+    "explanation": "Inner join returns only matching rows."
+  },
+  {
+    "question": "JOIN USING(ID) is equivalent to",
+    "option": [
+      "INNER JOIN",
+      "OUTER JOIN",
+      "LEFT OUTER JOIN",
+      "None"
+    ],
+    "answer": "INNER JOIN",
+    "explanation": "Default JOIN is INNER JOIN."
+  },
+  {
+    "question": "Join to include non-matching rows is",
+    "option": ["Equi-join", "Natural join", "Outer join", "All"],
+    "answer": "Outer join",
+    "explanation": "Outer join keeps unmatched rows."
+  },
+  {
+    "question": "How many tables in join?",
+    "option": ["One", "Two", "Three", "All"],
+    "answer": "All",
+    "explanation": "Multiple tables can be joined."
+  },
+  {
+    "question": "Join types include",
+    "option": ["Cross join", "Natural join", "Using clause", "All"],
+    "answer": "All",
+    "explanation": "All are join types."
+  },
+  {
+    "question": "Right outer join includes",
+    "option": ["Left unmatched", "Right unmatched", "All unmatched", "Half"],
+    "answer": "Right unmatched",
+    "explanation": "Right join keeps right table rows."
+  },
+  {
+    "question": "Select * from R,S equals",
+    "option": ["Natural join", "Cross join", "Union join", "Inner join"],
+    "answer": "Cross join",
+    "explanation": "Comma means Cartesian product."
+  },
+
+  {
+    "question": "Virtual relation is created using",
+    "option": ["Function", "View", "Procedure", "None"],
+    "answer": "View",
+    "explanation": "View is virtual table."
+  },
+  {
+    "question": "Syntax for view",
+    "option": [
+      "Create view v as query;",
+      "Create query as view;",
+      "Create view v as query expression;",
+      "Create view query;"
+    ],
+    "answer": "Create view v as query expression;",
+    "explanation": "Standard syntax."
+  },
+  {
+    "question": "Which denotes the view?",
+    "option": ["course_id", "Watson", "building", "physics_fall_2009"],
+    "answer": "physics_fall_2009",
+    "explanation": "View name."
+  },
+  {
+    "question": "Materialized views ensure",
+    "option": ["Stable", "Up-to-date", "Verified", "Deleted"],
+    "answer": "Up-to-date",
+    "explanation": "They store computed results."
+  },
+  {
+    "question": "Updating view",
+    "option": [
+      "Affects base table",
+      "No change view",
+      "No effect base",
+      "Cannot determine"
+    ],
+    "answer": "Affects base table",
+    "explanation": "Updatable views reflect changes."
+  },
+  {
+    "question": "View is updatable if",
+    "option": ["Single table", "No group by", "No aggregates", "All"],
+    "answer": "All",
+    "explanation": "All conditions required."
+  },
+  {
+    "question": "Reject tuples not satisfying condition",
+    "option": ["With", "Check", "With check", "All"],
+    "answer": "With check",
+    "explanation": "WITH CHECK OPTION enforces condition."
+  },
+  {
+    "question": "Display view contents",
+    "option": ["VIEW dept_view;", "SELECT * FROM dept_view;", "SHOW dept_view;", "DISPLAY dept_view;"],
+    "answer": "SELECT * FROM dept_view;",
+    "explanation": "SELECT fetches view data."
+  },
+
+  {
+    "question": "A ______ consists of sequence of queries.",
+    "option": ["Transaction", "Commit", "Rollback", "Flashback"],
+    "answer": "Transaction",
+    "explanation": "Transaction is unit of work."
+  },
+  {
+    "question": "Makes transaction permanent",
+    "option": ["View", "Commit", "Rollback", "Flashback"],
+    "answer": "Commit",
+    "explanation": "Commit saves changes."
+  },
+  {
+    "question": "Undo after last commit",
+    "option": ["View", "Commit", "Rollback", "Flashback"],
+    "answer": "Rollback",
+    "explanation": "Rollback undoes changes."
+  },
+  {
+    "question": "Rollback after commit does",
+    "option": ["Undo before commit", "Clear all", "Redo", "No action"],
+    "answer": "No action",
+    "explanation": "Committed changes cannot be undone."
+  },
+  {
+    "question": "Shutdown before commit leads to",
+    "option": ["View", "Commit", "Rollback", "Flashback"],
+    "answer": "Rollback",
+    "explanation": "Uncommitted work is rolled back."
+  },
+  {
+    "question": "Consistency ensured by",
+    "option": ["Commit", "Atomic", "Flashback", "Retain"],
+    "answer": "Atomic",
+    "explanation": "Atomicity ensures consistency."
+  },
+  {
+    "question": "Transaction execution completed is",
+    "option": ["Committed", "Aborted", "Rolled back", "Failed"],
+    "answer": "Committed",
+    "explanation": "Successful completion."
+  },
+  {
+    "question": "Get back after rollback",
+    "option": ["Commit", "Rollback", "Flashback", "Redo"],
+    "answer": "Redo",
+    "explanation": "Redo reapplies changes."
+  },
+
+  {
+    "question": "Add constraint to existing table",
+    "option": ["Create", "Modify", "Alter", "Drop"],
+    "answer": "Alter",
+    "explanation": "ALTER TABLE used."
+  },
+  {
+    "question": "Not integrity constraint",
+    "option": ["Not null", "Positive", "Unique", "Check"],
+    "answer": "Positive",
+    "explanation": "Not standard constraint."
+  },
+  {
+    "question": "Budget non-negative constraint",
+    "option": ["Check(budget>0)", "Check(budget<0)", "Alter", "Alter"],
+    "answer": "Check(budget>0)",
+    "explanation": "CHECK enforces condition."
+  },
+  {
+    "question": "Foreign key references",
+    "option": ["Foreign key", "Primary key", "References", "Check"],
+    "answer": "Primary key",
+    "explanation": "FK references PK."
+  },
+  {
+    "question": "Delete dependent rows",
+    "option": ["Delete", "Delete cascade", "Set null", "All"],
+    "answer": "Delete cascade",
+    "explanation": "CASCADE deletes related rows."
+  },
+  {
+    "question": "Integrity constraints improve",
+    "option": ["Access control", "No duplicates", "Data quality", "Prevent changes"],
+    "answer": "Data quality",
+    "explanation": "Ensures valid data."
+  },
+
+  {
+    "question": "Dates format",
+    "option": ["mm/dd/yy", "yyyy/mm/dd", "dd/mm/yy", "yy/dd/mm"],
+    "answer": "yyyy/mm/dd",
+    "explanation": "Standard SQL format."
+  },
+  {
+    "question": "Efficient lookup structure",
+    "option": ["Index", "Reference", "Assertion", "Timestamp"],
+    "answer": "Index",
+    "explanation": "Index speeds search."
+  },
+  {
+    "question": "Relation in index",
+    "option": ["StudentID_index", "ID", "StudentID", "Student"],
+    "answer": "Student",
+    "explanation": "Index created on table."
+  },
+  {
+    "question": "Store images/files",
+    "option": ["Clob", "Blob", "Binary", "Image"],
+    "answer": "Blob",
+    "explanation": "BLOB stores binary large objects."
+  },
+  {
+    "question": "User-defined type",
+    "option": ["Create datatype", "Create data", "Create definetype", "Create type"],
+    "answer": "Create type",
+    "explanation": "Correct syntax."
+  },
+  {
+    "question": "Convert type",
+    "option": ["Cast", "Drop type", "Alter type", "Convert"],
+    "answer": "Cast",
+    "explanation": "CAST converts types."
+  },
+  {
+    "question": "Hierarchy top level",
+    "option": ["Catalogs, schemas", "Schemas, catalogs", "Environment", "Schemas"],
+    "answer": "Catalogs, schemas",
+    "explanation": "Catalog contains schemas."
+  },
+  {
+    "question": "Create table same schema",
+    "option": [
+      "create table temp;",
+      "Create table temp like instructor;",
+      "Create table as temp;",
+      "Create table like temp;"
+    ],
+    "answer": "Create table temp like instructor;",
+    "explanation": "LIKE copies schema."
+  }
+]
