@@ -48,6 +48,8 @@ function Home() {
   const location = useLocation()
 
   return (
+    <>
+    <Analytics />
     <main className="shell">
       <section className="hero-card">
         <p className="eyebrow">Choose a route</p>
@@ -68,6 +70,7 @@ function Home() {
         <p className="route-hint">Current path: {location.pathname}</p>
       </section>
     </main>
+    </>
   )
 }
 
